@@ -1,6 +1,6 @@
 # <center> Hacktober Fest 2021 For Everyone </center>
 
-![Hacktoberfest 2021](hacktoberfest2021.PNG)
+![Hacktoberfest 2021](hacktoberfest2021.png)
 
 <p align="center">
    <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
