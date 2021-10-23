@@ -62,5 +62,5 @@ class BinaryTree
 		t = tree.lca(tree.root, n1, n2);
 		System.out.println("LCA of " + n1 + " and " + n2 + " is " + t.data);
 
-	}
+	} 
 }
