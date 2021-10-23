@@ -33,7 +33,7 @@ Node* addNodeAtBeginning(Node* head, int x){
     Node* new_head = new Node(x);
     
     if(!head){
-      retrun new_head;
+      return new_head;
     }
 
     new_head->next = head;
@@ -57,7 +57,9 @@ int main(){
   
   Node* new_head = addNodeAtBeginning(head,10);
   
-  cout<<"After addition"<<printList(new_head)<<endl;
+  cout<<"After addition"; 
+  printList(new_head);
+  cout<<endl;
 
   return 0;
 }
