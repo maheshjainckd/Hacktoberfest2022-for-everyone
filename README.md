@@ -3,10 +3,11 @@
 ![Hacktoberfest 2021](hacktoberfest2021.png)
 
 <p align="center">
-   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
+   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="contributors" src="https://img.shields.io/github/contributors/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone">
 </p>
 
 # Upload Different Types of Programs in any Language
