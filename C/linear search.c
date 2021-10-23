@@ -14,9 +14,10 @@ int main(void){
 int arr[]={2, 3, 4, 5 ,78, 68, 45 ,99};
 int x=45;
 int n=sizeof(arr)/sizeof(arr[0]);
-//for(int i=0;i<n;i++){
-   // printf("arr[%d]: %d",n,arr[i]);
-//}
+for(int i=0;i<n;i++){
+    printf("%d ",arr[i]);
+}
+printf("\n");
 printf("Enter the element you want to search in arr[]: ");
 scanf("%d",&x);
 
