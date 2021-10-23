@@ -35,6 +35,10 @@ Once you have completed these steps, you are ready to start contributing by clic
 
 If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.
 
+### 5. Mention your name in the contributors.html file
+
+https://github.com/maheshjainckd/Hacktoberfest2021-for-everyone/blob/main/contributors.html
+
 ## Note:
 
 1. Don't Create Pull Request to update "readme.md" File.
