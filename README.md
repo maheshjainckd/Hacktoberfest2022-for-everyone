@@ -47,3 +47,7 @@ If you liked working on this project, please share this project as much as you c
 2. Upload or Create File in Specified Language Folder.
 3. If Specified Language Folder not Found then Create Folder and then Upload or Create File.
 4. Please mention the extention of files while creating them (e.g if file is of java language create file named "xyz.java").
+
+## Special thanks:+1: to:
+
+* [dikshantrajput](https://github.com/dikshantrajput)
