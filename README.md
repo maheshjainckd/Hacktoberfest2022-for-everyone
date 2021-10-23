@@ -27,17 +27,18 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 Add any Simple or Complex Program in any language you Like in this Repository by clicking "Add File -> Create new File".
 
-### 3. Create Pull Request:
+### 3. Mention your name in the contributors.html file
+
+https://github.com/maheshjainckd/Hacktoberfest2021-for-everyone/blob/main/contributors.html
+
+### 4. Create Pull Request:
 
 Once you have completed these steps, you are ready to start contributing by clicking on Create Pull Request.
 
-### 4. Give this Project a Star:
+### 5. Give this Project a Star:
 
 If you liked working on this project, please share this project as much as you can and star this project to help as many people in opensource as you can.
 
-### 5. Mention your name in the contributors.html file
-
-https://github.com/maheshjainckd/Hacktoberfest2021-for-everyone/blob/main/contributors.html
 
 ## Note:
 
