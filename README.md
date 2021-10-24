@@ -3,10 +3,11 @@
 ![Hacktoberfest 2021](hacktoberfest2021.png)
 
 <p align="center">
-   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
-   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone"></a>
+   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="contributors" src="https://img.shields.io/github/contributors/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone">
 </p>
 
 # Upload Different Types of Programs in any Language
@@ -45,3 +46,8 @@ If you liked working on this project, please share this project as much as you c
 1. Don't Create Pull Request to update "readme.md" File.
 2. Upload or Create File in Specified Language Folder.
 3. If Specified Language Folder not Found then Create Folder and then Upload or Create File.
+4. Please mention the extention of files while creating them (e.g if file is of java language create file named "xyz.java").
+
+## Special thanks:+1: to:
+
+* [dikshantrajput](https://github.com/dikshantrajput)
