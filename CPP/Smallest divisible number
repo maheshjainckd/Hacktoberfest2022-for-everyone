@@ -1,0 +1,8 @@
+ong long getSmallestDivNum(long long n){
+        // code here
+        long long P=1;
+        for(long long i=1;i<=n;i++){
+            P=P*i/__gcd(P,i);
+        }
+        return P;
+}
