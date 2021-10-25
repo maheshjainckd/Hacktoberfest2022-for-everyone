@@ -10,7 +10,7 @@
    <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone">
 </p>
 
-# Upload Different Types of Programs in any Language
+# Upload Projects or Different Types of Programs in any Language
 
 Use this project to make your first contribution to an open source project on GitHub. Practice making your first pull request to a public repository before doing the real thing!
 
