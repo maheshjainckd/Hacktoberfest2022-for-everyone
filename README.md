@@ -24,9 +24,9 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 ##### https://hacktoberfest.digitalocean.com/
 
-### 2. Add a Program in any Language you like:
+### 2. Add Project/Program in any Language you like:
 
-Add any Simple or Complex Program in any language you Like in this Repository by clicking "Add File -> Create new File".
+Add any of your simple or complex Project/Program in any language you like in this repository by clicking "Add File -> Create new File".
 
 ### 3. Mention your name in the contributors.html file
 
