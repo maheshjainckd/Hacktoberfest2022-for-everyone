@@ -1,0 +1,28 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">     
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"> </script>
+    </head>
+
+    <body>
+        <div class="main" ng-app="myShoppingList" ng-controller="myCtrl">
+            <h1>Shopping App</h1>
+            <div class="search">
+                 <input type="search" placeholder="Add Todo" ng-model="addMe">
+                 <span ng-click="addItem()"><i class="fas fa-plus"></i></span>
+            </div>
+            <ul>
+                <li ng-repeat="x in products">
+                    {{x}} 
+                     <i ng-click="removeItem($index)" class="fas fa-trash-alt"></i> 
+                </li>
+            </ul>
+            <p>{{errortext}}</p>
+        </div>
+
+        <script src="script.js"></script>
+        
+    </body>
+</html>
