@@ -1,4 +1,3 @@
-package dsa.array;
 
 public class BestTimeToBuyAndSellStock {
 
