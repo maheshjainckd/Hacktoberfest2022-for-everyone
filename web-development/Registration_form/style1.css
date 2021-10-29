@@ -1,0 +1,35 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	background-image: url(C:/Users/NAVEEN/Documents/images/forest.jpg);
+	background-size: cover;
+	background-position: center;
+}
+.input-box
+{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 12px;
+}
+.main
+{
+	text-align: center;
+	background: rgb(50,80,20);
+}
+.main ul
+{
+	display: inline-flex;
+	color:white;
+}
+.main ul li
+{
+	padding: 15px;
+	margin: 15px;
+	width: 120px;
+	color:white;
+}
