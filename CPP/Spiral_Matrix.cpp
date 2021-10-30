@@ -1,4 +1,7 @@
 // Leetcode 54. Spiral Matrix (https://leetcode.com/problems/spiral-matrix/)
+
+#inclue<bits/stdc++.h>
+
 class Solution {
 public:
     vector<int> spiralOrder(vector<vector<int>>& a) {
@@ -49,3 +52,16 @@ public:
         return ans;
     }
 };
+
+int main()
+{
+    vector<vector<int>> matrix = {{1,2,3},{4,5,6},{7,8,9}};
+    Solution obj;
+    vector<int> ans = obj.spiralOrder(matrix);
+    cout<<"spiral traversal of given matrix is : ";
+    for(auto i:ans)
+    {
+        cout<<i<<" ";
+    }
+    cout<<"\n";
+}
