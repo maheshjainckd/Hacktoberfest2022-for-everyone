@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            
+            border: 1px solid black;
+        }
+        #cont{
+            display: flex;
+        }
+        #cont>div{
+            border: 1px solid red;
+            margin-right: 100px;
+        }
+        input[type='submit']{
+            background-color: red;
+            border-radius:15px ;
+        }
+        th,td{
+            border: 1px solid red;
+            padding: 5px;
+        }
+       input,textarea,select{
+           margin-top: 10px;
+           margin: 10px 0px;
+       }
+    </style>
+</head>
+<body>
+    
+    <div id="cont">
+        <div >
+            <h1>Add Product</h1>
+            <form action="">
+                <label for="">Category</label><br/>
+                <select name="" id="category">
+                    <option value="---">Category</option>
+                    <option value="Electronics">Electronics</option>
+                    <option value="Home Appliances">Home Appliances</option>
+                    <option value="Furniture">Furniture</option>
+                </select><br/>
+                <label for="">Title</label><br/>
+                <input type="text" id="title"><br/>
+                <label for="">Description</label><br/>
+                <textarea name="" id="des" cols="30" rows="5"></textarea><br/>
+                <label for="">Price</label><br/>
+                <input type="number" name="" id="price">
+                <input type="submit" value="Add">
+            </form>
+        </div>
+        <div>
+            <h2>Product Info</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Category</th>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </div>
+        
+        
+    </div>
+    
+</body>
+<script>
+    document.querySelector('form').addEventListener("submit",add)
+    var productList=JSON.parse(localStorage.getItem("Bozaz"))||[]
+    function add(event){
+        event.preventDefault()
+        var category=document.getElementById('category').value
+        var title=document.getElementById('title').value
+        var des=document.getElementById('des').value
+        var price=document.getElementById('price').value
+        var prod_obj={
+            Category:category,
+            Title:title,
+            Description:des,
+            Price:price
+        }
+        productList.push(prod_obj)
+        localStorage.setItem("Bozaz",JSON.stringify(productList))
+        displayProd(productList)
+    }
+    function displayProd(productList){
+        document.querySelector("tbody").textContent=''
+        productList.map(function(item,index){
+            var tr=document.createElement("tr")
+    var td1=document.createElement("td")
+    td1.textContent=item.Category
+
+    var td2=document.createElement("td")
+    td2.textContent=item.Title
+
+    var td3=document.createElement("td")
+    td3.textContent=item.Description
+    var td4=document.createElement("td")
+    td4.textContent=item.Price
+    var td5=document.createElement("td")
+    td5.textContent=index+1
+    tr.append(td5,td1,td2,td3,td4)
+    document.querySelector("tbody").append(tr)
+        })
+    }
+    window.addEventListener('load',function(){
+        displayProd(productList)
+})  
+</script>
+</html>
