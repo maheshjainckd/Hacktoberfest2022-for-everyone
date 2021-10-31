@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        th,td{
+            border: 1px solid red;
+            padding: 5px;
+        }
+        button{
+            color: blue;
+            background-color:yellowgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Shopping List</h1>
+    <form>
+        <label for="">Name : </label>
+        <input id="name" type="text" >
+        <label for="">Quantity : </label>
+        <input id="qty" type="Number">
+        <label for="">Priority :</label>
+        <select name="" id="sel">
+            <option value="----">----</option>
+            <option value="Low">Low</option>
+            <option value="Medium">Meidum</option>
+            <option value="High">High</option>
+        </select>
+        <input type="Submit" value="Submit">
+    </form>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Priority</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+</body>
+<script>
+document.querySelector("form").addEventListener("submit",addItem)
+var shopingList=JSON.parse(localStorage.getItem("totalList"))||[]
+function addItem(event){
+   // event.preventDefault();
+    event.preventDefault()
+    var name=document.getElementById("name").value
+    var qty=document.getElementById("qty").value
+    var priority=document.getElementById("sel").value
+    var list={
+        itemName:name,
+        itemQty:qty,
+        itemPriority:priority
+    }
+    shopingList.push(list)
+    localStorage.setItem("totalList",JSON.stringify(shopingList))
+    displayItem(shopingList)
+}
+window.addEventListener('load',function(){
+    displayItem(shopingList)
+})
+function displayItem(shopingList){
+    document.querySelector("tbody").textContent=''
+    shopingList.map(function(item,index){
+    console.log(item)
+    var tr=document.createElement("tr")
+    var td1=document.createElement("td")
+    td1.textContent=item.itemName
+
+    var td2=document.createElement("td")
+    td2.textContent=item.itemQty
+
+    var td3=document.createElement("td")
+    td3.textContent=item.itemPriority
+    var td4=document.createElement("td")
+    td4.addEventListener("click",function(){
+        makeDelete(index)
+    })
+    td4.innerHTML="<button>Delete</button>"
+    tr.append(td1,td2,td3,td4)
+    document.querySelector("tbody").append(tr)
+})
+}
+function makeDelete(index){
+shopingList.splice(index,1)
+localStorage.setItem("totalList",JSON.stringify(shopingList))
+displayItem(shopingList)
+}
+</script>
+</html>
