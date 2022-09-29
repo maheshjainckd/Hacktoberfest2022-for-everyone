@@ -1,13 +1,11 @@
-# <center> Hacktober Fest 2021 For Everyone! </center>
-
-![Hacktoberfest 2021](hacktoberfest2021.png)
+# <center> Hacktober Fest 2022 For Everyone! </center>
 
 <p align="center">
-   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2021-for-everyone">
-   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2021-for-everyone">
-   <img alt="contributors" src="https://img.shields.io/github/contributors/maheshjainckd/Hacktoberfest2021-for-everyone">
-   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2021-for-everyone">
-   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2021-for-everyone">
+   <img alt="GitHub pull-requests" src="https://img.shields.io/github/issues-pr/maheshjainckd/Hacktoberfest2022-for-everyone">
+   <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2022-for-everyone">
+   <img alt="contributors" src="https://img.shields.io/github/contributors/maheshjainckd/Hacktoberfest2022-for-everyone">
+   <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2022-for-everyone">
+   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2022-for-everyone">
 </p>
 
 # Upload Projects or Different Types of Programs in any Language
@@ -30,7 +28,7 @@ Add any of your simple or complex Project/Program in any language you like in th
 
 ### 3. Mention your name in the contributors.html file
 
-https://github.com/maheshjainckd/Hacktoberfest2021-for-everyone/blob/main/contributors.html
+https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone/blob/main/contributors.html
 
 ### 4. Create Pull Request:
 
