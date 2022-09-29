@@ -5,7 +5,6 @@
    <img alt="GitHub forks" src="https://img.shields.io/github/forks/maheshjainckd/Hacktoberfest2022-for-everyone">
    <img alt="contributors" src="https://img.shields.io/github/contributors/maheshjainckd/Hacktoberfest2022-for-everyone">
    <img alt="GitHub stars" src="https://img.shields.io/github/stars/maheshjainckd/Hacktoberfest2022-for-everyone">
-   <img alt="visits" src="https://badges.pufler.dev/visits/maheshjainckd/Hacktoberfest2022-for-everyone">
 </p>
 
 # Upload Projects or Different Types of Programs in any Language
