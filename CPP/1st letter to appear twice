@@ -1,0 +1,23 @@
+class Solution {
+public:
+    char repeatedCharacter(string s) {
+//         vector<char>ans;
+//         char test;
+//         for(int i=0;i<s.size()-1;++i){
+//             if(s[i]==s[i+1]) 
+//             ans.emplace_back(s[i]);
+//             break;
+//         }
+//         test+=ans[0];
+//         return test;
+        set<char> st;
+		for(auto &i:s){
+		// if character already exists in set then the current appearance is second appearnace hence return
+			if(st.find(i) != st.end()){
+				return i;
+			}
+			st.insert(i);
+		}
+		return 'a';
+    }
+};
