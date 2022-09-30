@@ -1,0 +1,46 @@
+# My First Data Science Project
+
+from helper import *
+url = 'https://en.wikipedia.org/wiki/List_of_helicopter_prison_escapes'
+## Get the Data
+Now, let's get the data from the [List of helicopter prison escapes](https://en.wikipedia.org/wiki/List_of_helicopter_prison_escapes) Wikipedia article.
+data = data_from_url(url)
+for index, row in enumerate(data):
+    if index <= 3:
+        print(row)
+Let's print the first three rows
+index = 0
+for row in data:
+    last_index = len(data) + 1
+    data[index] = row[0:-1]
+    index += 1
+    
+for index, row in enumerate(data):
+    if index <= 5:
+        print(row)
+for row in data:
+    row[0] = fetch_year(row[0])
+for index, row in enumerate(data):
+    if index <= 5:
+        print(row)
+min_year = min(data, key=lambda x: x[0])[0]
+max_year = max(data, key=lambda x: x[0])[0]
+years = []
+for y in range(min_year, max_year + 1):
+    years.append(y)
+attempts_per_year = []
+for year in years:
+    attempts_per_year.append([year, 0])
+print(attempts_per_year)
+for row in data:
+    for ya in attempts_per_year:
+        y = ya[0]
+        if row[0] == y:
+            ya[1] += 1
+
+print(attempts_per_year)
+2009, 2007, 2001, 1986
+%matplotlib inline
+barplot(attempts_per_year)
+countries_frequency = df["Country"].value_counts()
+print_pretty_table(countries_frequency)
