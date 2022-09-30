@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial</title>
+    <!-----bootstrap----->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!------font awesome----->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
+    <!-----css link------->
+    <link rel="stylesheet" href="Css/main.css">
+   
+
+    <link  rel="stylesheet"  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+<!---------------------review-------------------------->
+<section class="review "  id="review">
+ <div class="container">
+  <div class="swiper mySwiper review-slider">
+    <div class="swiper-wrapper wrapper">
+      <div class="swiper-slide">
+        <div class="box shadow">
+          <img src="Images/i1.jpeg" alt="" height="300px "width="300px">
+          <h4>Martha Richard</h4>
+          
+          <div class="my-2">
+           <a  href="#" class="rang"><i class="fab fa-twitter fa-1x me-1"></i></a>
+           <a  href="#" class="rang"><i class="fab fa-linkedin fa-1x"></i></a>
+         </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, consequuntur.</p>
+          
+          <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fa fa-star-half-alt fill1"></i>
+         </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box shadow">
+          <img src="Images/i2.jpeg" alt="" height="300px "width="300px">
+          <h4>John Smith</h4>
+          
+          <div class="my-2">
+            <a  href="#" class="rang"><i class="fab fa-twitter fa-1x me-1"></i></a>
+            <a  href="#" class="rang"><i class="fab fa-linkedin fa-1x"></i></a>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, consequuntur.</p>
+          <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fa fa-star-half-alt fill1"></i>
+         </div>
+      </div>
+      <div class="swiper-slide"> <div class="box shadow">
+        <img src="Images/i4.jpeg" alt="" height="300px "width="300px">
+        <h4>Abigail Joseph</h4>
+        
+        <div class="my-2">
+          <a  href="#" class="rang"><i class="fab fa-twitter fa-1x me-1"></i></a>
+          <a  href="#" class="rang"><i class="fab fa-linkedin fa-1x"></i></a>
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, consequuntur.</p>
+        
+        <i class=" fas fa-star fill1"></i>
+       <i class=" fas fa-star fill1"></i>
+       <i class=" fas fa-star fill1"></i>
+       <i class=" fas fa-star fill1"></i>
+       <i class=" fa fa-star-half-alt fill1"></i>
+       </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="images/i3.jpeg" alt="" height="300px "width="300px">
+          <h4>Arthur Morgan</h4>
+          
+          <div class="my-2">
+            <a  href="#" class="rang"><i class="fab fa-twitter fa-1x me-1"></i></a>
+            <a  href="#" class="rang"><i class="fab fa-linkedin fa-1x"></i></a>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, consequuntur.</p>
+          <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fa fa-star-half-alt fill1"></i>
+         </div>
+      </div>
+      <div class="swiper-slide">
+        <div class="box">
+          <img src="Images/i2.jpeg" alt=""height="300px "width="300px">
+          <h4>Franklin Clinton</h4>
+        
+          <div class="my-2">
+            <a  href="#" class="rang"><i class="fab fa-twitter fa-1x me-1"></i></a>
+            <a  href="#" class="rang"><i class="fab fa-linkedin fa-1x"></i></a>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, consequuntur.</p>
+         
+          <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fas fa-star fill1"></i>
+         <i class=" fa fa-star-half-alt fill1"></i>
+         </div>
+      </div>
+     
+    </div>
+    
+    <div class="swiper-pagination  pani pt-3"></div>
+  </div>
+ </div>
+  
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".review-slider", {
+      spaceBetween: 20,
+    loop:true,
+    autoplay: {
+      delay:3500,
+      disableOnInteraction:false,
+    },
+    pagination: {
+          el: ".swiper-pagination",
+        },
+  breakpoints: {
+    640: {
+      slidesPerView: 1,
+    },
+    768: {
+      slidesPerView: 2,
+    },
+    1024: {
+      slidesPerView: 3,
+    },
+  },
+      });
+</script>  
+<!-- Option 1: Bootstrap Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
