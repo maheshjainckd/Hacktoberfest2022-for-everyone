@@ -4,10 +4,12 @@ using namespace std;
 
 
 
-Time Complexity:O(N*N!);
+// Time Complexity:O(N!);
 
 
-Space Complexity:O(permutation.size()) // Call Stack size (pushing each character) 
+// Space Complexity:O(N) 
+    
+//     N=(length of string) 
 
 void print_permutation(string permutation,string result){
 
