@@ -58,3 +58,5 @@ replay_pid*
 /coverage
 /build
 npm-debug.log*
+
+.DS_Store
