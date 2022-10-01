@@ -16,7 +16,6 @@ struct Node {
 };
 
 int res = 0;
-
 // Function to find the time for the tree to burn
 int burnTime(Node* root, int leaf, int& dist)
 {
@@ -59,7 +58,7 @@ int main()
 	int target = 11;
 
 	burnTime(root, target, dist);
-	
+
 	cout << res;
 	return 0;
 }
