@@ -1,0 +1,106 @@
+/*
+
+link - >  https://practice.geeksforgeeks.org/problems/alien-dictionary/1
+
+Given a sorted dictionary of an alien language having N words and k starting alphabets of standard dictionary. Find the order of characters in the alien language.
+
+example 1:
+N = 5, K = 4
+dict = {"baa","abcd","abca","cab","cad"}
+Output:
+1
+
+
+example 2:
+N = 3, K = 3
+dict = {"caa","aaa","aab"}
+Output:
+1
+
+
+
+*/
+
+
+
+class Solution{
+    
+    private:
+    
+	 vector<int> topoSort(int V, vector<int> adj[]) {
+	     
+	     queue<int> q;
+	     vector<int> indegree(V,0);
+	     vector<int> ans;
+	     
+	     //mark the indegrees 
+	     for(int i=0;i<V;i++)
+	     {
+	         for(auto x:adj[i])
+	         {
+	             indegree[x]++;
+	         }
+	     }
+	     
+	     // initially
+	     // push the elements having indegree 0
+	     for(int i=0;i<V;i++)
+	     {
+	         if(indegree[i]==0)
+	            q.push(i);
+	     }
+	     
+	     while(!q.empty())
+	     {
+	         int p = q.front();
+	         q.pop();
+	         ans.push_back(p);
+	         
+	         for(auto x:adj[p])
+	         {
+	             indegree[x]--;
+	             if(indegree[x]==0)q.push(x);
+	         }
+	     }
+	     
+	     return ans;
+	}
+    
+    public:
+    string findOrder(string dict[], int N, int K) {
+        
+        vector<int> adj[K];
+
+        // make a directed graph 
+        
+        for(int i=0;i<N-1;i++)
+        {
+            string s1 = dict[i];
+            string s2 = dict[i+1];
+            
+            int len = min(s1.size(),s2.size());
+            
+            for(int ptr = 0 ; ptr<len ; ptr++)
+            {
+                if(s1[ptr] != s2[ptr])
+                    {
+                        adj[s1[ptr]-'a'].push_back(s2[ptr]-'a');
+                        break;
+                    }
+            }
+        }
+        
+        //adjacency list created !! with numbers , now call the toposort function to find the toposort
+        
+        string s = "";
+        vector<int> topo = topoSort(K,adj);
+        for(auto x:topo)
+        {
+            s.push_back(x+'a');
+        }
+        return s;
+        
+        
+        
+    }
+};
