@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+body {
+    background-color: #111827;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    margin-top: 150px;
+    margin-left: 450px;
+    margin-right: 450px;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid deepskyblue;
+    padding: 40px;
+    border-radius: 20px;
+    width: 30rem;
+    text-align: center;
+}
+.message {
+    border: 2px solid deepskyblue;
+    border-radius: 7px;
+    padding: 8px;
+    margin-top: 4px;
+    outline: none;
+}
+
+h1{
+    font-family: 'Roboto Slab', serif;
+}
+
+p{
+    font-family: 'Inconsolata', monospace;
+    font-size: 25px;
+    align-items: center;
+}
