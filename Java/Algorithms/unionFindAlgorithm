@@ -1,0 +1,38 @@
+  static class UnionFind {
+        int[] parent;
+        int[] rank;
+ 
+        UnionFind(int n) {
+            parent = new int[n + 1];
+            rank = new int[n + 1];
+            for (int i = 0; i < n; i++) {
+                parent[i] = i;
+                rank[i] = 1;
+            }
+        }
+ 
+        private int find(int x) {
+            if (parent[x] == x) {
+                return x;
+            }
+            return parent[x] = find(parent[x]);
+        }
+ 
+        private boolean unite(int x, int y) {
+            int rootX = find(x);
+            int rootY = find(y);
+            if (rootX == rootY) {
+                return false;
+            }
+ 
+            if (rank[rootX] >= rank[rootY]) {
+                parent[rootY] = rootX;
+                rank[rootX] += rank[rootY];
+            }else {
+                parent[rootX] = rootY;
+                rank[rootY] += rank[rootX];
+            }
+ 
+            return true;
+        }
+    }
