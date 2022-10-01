@@ -1,0 +1,12 @@
+{
+  "name": "cube-animation",
+  "version": "1.0.0",
+  "description": "Animation of rotating cube",
+  "main": "app.js",
+  "scripts": {
+    "start": "sass style.scss style.css -w"
+  },
+  "keywords": [],
+  "author": "Akshat Mittal",
+  "license": "MIT"
+}
