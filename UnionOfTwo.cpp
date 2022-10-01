@@ -1,6 +1,13 @@
+/* Given an integer N .
+   P is the set of Prime No.s less than N.
+   F is the set ofnFibonacci numbers less than N.
+   Find the number of elements in the set F union P.*/
+
 #include<iostream>
 #include<cmath>
 using namespace std;
+
+// Function to find whether a no. is prime or not.
 bool isprime(int n)
 {
     if(n==1 || n==0)
@@ -12,6 +19,8 @@ bool isprime(int n)
     }
     return true;
 }
+
+//Function to find union of prime no.s and fibonacci numbers till n.
 int unionoftwo(int n)
 {
     int result=0;
@@ -43,7 +52,7 @@ int unionoftwo(int n)
 int main()
 {
     int n;
-  cout<<"Enter the size of array"<<endl;
+    cout<<"Enter the number"<<endl;
     cin>>n;
     cout<<unionoftwo(n);
 }
