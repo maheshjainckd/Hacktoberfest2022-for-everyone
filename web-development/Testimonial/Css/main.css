@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Changa:wght@500&family=Irish+Grover&family=Lobster&family=Luckiest+Guy&family=Montserrat:wght@600&family=Orbitron:wght@500;600&family=Pacifico&family=Permanent+Marker&family=Prompt:wght@500&family=Righteous&display=swap');
+
+*{
+    margin: 0;padding: 0;
+    box-sizing: border-box;
+    font-family: 'Aldrich', sans-serif;
+}
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    overflow: hidden;
+}
+:root{
+    --dark:#fff;
+    --light:#222;
+    --fill1:#30306e;
+    --swiper-theme-color:#30306e;
+    
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  
+
+  .review-slider{
+    padding-bottom: 2rem;
+}
+.box{
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.1);
+    border-radius: .5rem;
+    background-color: #fff;
+    color: #fff;
+    backdrop-filter: blur(10px) saturate(135%);
+    -webkit-backdrop-filter: blur(10px) saturate(135%);
+    background-color: rgba(24, 54, 96, 0.58);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.box img{
+    height: 13rem;
+    width: 13rem;
+    border-radius: 50%;
+    object-fit: cover;
+   margin-bottom: 1rem;
+}
+.swiper-pagination-bullet{
+    background: var(--swiper-theme-color)!important;
+   }
+   .pani{
+       position: relative!important;
+       color: #30306e!important;
+   }
+   .rang{
+       color: rgb(226, 192, 42);
+   }
+   .fill1{
+    color: rgb(226, 192, 42);   
+   }
