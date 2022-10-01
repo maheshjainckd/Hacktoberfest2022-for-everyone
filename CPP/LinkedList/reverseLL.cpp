@@ -37,15 +37,16 @@ Node* reverse(Node* head){
 
 int main(){
 
-  Node* head = new Node(10);
+  // updating for checking hacktoberfest respo
+  Node* head = new Node(100);
 
-  head->next = new Node(20);
+  head->next = new Node(200);
 
-  head->next->next = new Node(30);
+  head->next->next = new Node(300);
 
-  head->next->next->next = new Node(40);
+  head->next->next->next = new Node(400);
 
-  head->next->next->next->next = new Node(50);
+  head->next->next->next->next = new Node(500);
 
   printList(head);
   cout<<endl;
