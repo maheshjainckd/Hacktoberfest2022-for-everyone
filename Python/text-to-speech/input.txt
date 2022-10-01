@@ -1,0 +1,4 @@
+Hello, My name is nitin kumar & I love Python language
+I also love Automation
+Pursuing MCA, will be completed by 2023
+Also have interest in Data Science
