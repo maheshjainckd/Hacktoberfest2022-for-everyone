@@ -1,0 +1,48 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int dx[4] = {1 , 0 , -1 , 0};
+int dy[4] = {0 , 1 , 0 , -1};
+
+void dfs(int x , int y , vector<vector<char>> &a , int n , int m) {
+    a[x][y] = '0';
+    for(int i=0 ; i<4 ; i++) {
+        int nx = x + dx[i];
+        int ny = y + dy[i];
+        if(nx >= 0 && nx < n && ny >= 0 && ny < m && a[nx][ny] == '1') {
+            dfs(nx , ny , a , n , m);
+        }
+    }
+}
+
+int numIslands(vector<vector<char>> &a) {
+    int n = a.size();
+    int m = a[0].size();
+
+    int ans = 0;
+    for(int i=0 ; i<n ; i++) {
+        for(int j=0 ; j<m ; j++) {
+            if(a[i][j] == '1') {
+                dfs(i , j , a , n , m);
+                ans++;
+            }
+        }
+    }
+
+    return ans;
+}
+
+int main() {
+    
+    vector<vector<char>> a{
+        {'1','1','1','1','0'},
+        {'1','1','0','1','0'},
+        {'1','1','0','0','0'},
+        {'0','0','0','0','0'}
+    };
+
+    cout << "number of number Islands in this matrix are : " << numIslands(a) << endl;
+
+    return 0;
+}
