@@ -1,7 +1,7 @@
 # <center> EXCLUDED From Hacktoberfest2022</center>
 ## Contribute to fresh Repositories for HacktoberFest 2022 👇
 ##### https://github.com/dikshantrajput/hacktoberfest-2022-react
-##### [https://github.com/dikshantrajput/hacktoberfest-2022-react](https://github.com/dikshantrajput/Hacktober-accepted-2022)
+##### https://github.com/dikshantrajput/Hacktober-accepted-2022
 # <center> Hacktober Fest 2022 For Everyone! </center>
 
 <p align="center">
