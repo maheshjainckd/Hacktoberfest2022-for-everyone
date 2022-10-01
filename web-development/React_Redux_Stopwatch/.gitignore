@@ -1,0 +1,102 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Intellij
+*.iml
+.idea
+
+# Android Studio
+captures/
+.externalNativeBuild
+
+# Gradle files
+.gradle/
+build/
+
+# Built Android application files
+*.apk
+
+# Local configuration file (ex. SDK path)
+local.properties
+
+# Google Services (ex. APIs and Firebase)
+google-services.json
+GoogleService-Info.plist
+
+# Firebase Hosting
+.firebaserc
+firebase-debug.log
+
+# Build generated
+build/
+DerivedData/
+
+# Various Xcode settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+
+# Other Xcode files
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# CocoaPods
+Pods/
+
+# Chrome Extension related
+*.pem
+*.crx
+
+# Local config/setup
+database.rules.json
+samples/android/Continote/app/src/main/res/values/strings.xml
+samples/chrome-extension/Continote/scripts/config.js
+samples/ios/Continote/Continote/Constants.swift
+samples/ios/Continote/Continote/Info.plist
+samples/ios/Continote/Continote.xcodeproj/project.pbxproj
+samples/web/Continote/database.rules.json
+samples/web/Continote/public/scripts/config.js
+
+# Libraries for samples
+samples/android/Continote/app/libs/*.aar
+samples/chrome-extension/Continote/scripts/firebase-continue.js
+samples/ios/Continote/Continote/FCNContinue.h
+samples/ios/Continote/Continote/FCNContinue.m
+
+# Misc.
+.DS_Store
+*.swp
