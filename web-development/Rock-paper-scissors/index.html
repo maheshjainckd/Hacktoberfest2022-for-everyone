@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="theme-color" content="#111111" />
+    <title>New site</title>
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/vendor.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+
+  <body>
+    <div class="site-container">
+      <div class="container">
+        <h1 class="main-title">Rock-paper-scissors</h1>
+        <section class="score-board">
+          <div class="score-board__users users">
+            <div class="users__user-wrapper">
+              <div class="users__user">
+                <div class="users__username">You</div>
+                <div class="users__user-hp users__user-hp--you">5</div>
+              </div>
+              <div class="users__user">
+                <div class="users__user-hp users__user-hp--computer">5</div>
+                <div class="users__username">Computer</div>
+              </div>
+            </div>
+          </div>
+          <div class="score-board__score-line score-line">
+            <div class="score-line__line"></div>
+          </div>
+        </section>
+        <section class="play-board">
+          <div class="play-board__card play-board__card--you">
+            <img class="play-board__card-img" src="img/question.png" alt="" />
+          </div>
+          <div class="play-board__separator">VS</div>
+          <div class="play-board__card play-board__card--computer">
+            <img class="play-board__card-img" src="img/question.png" alt="" />
+          </div>
+        </section>
+        <section class="play-buttons">
+          <p class="play-buttons__title">Choose you card</p>
+          <div class="play-buttons__button-list">
+<!--            <div class="play-buttons__button" style="background: url(img/rock.png)  0 0/contain no-repeat"></div>-->
+<!--            <div class="play-buttons__button" style="background: url(img/paper.png)  0 0/contain no-repeat"></div>-->
+<!--            <div class="play-buttons__button" style="background: url(img/scissors.png)  0 0/contain no-repeat"></div>-->
+          </div>
+        </section>
+      </div>
+    </div>
+    <div class="modal">
+      <div class="modal__body">
+        <div class="modal__close-btn"></div>
+        <p class="modal__text">You win!!!</p>
+      </div>
+    </div>
+    <script src="js/vendor.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
