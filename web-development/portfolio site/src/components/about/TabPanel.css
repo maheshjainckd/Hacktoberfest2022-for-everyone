@@ -1,0 +1,38 @@
+.navtabItem {
+    cursor: pointer;
+    border-radius: 5rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 1rem 2rem;
+    transition-duration: 0.7s;
+}
+
+.navtabItem.active {
+    /* color: #171717; */
+    background-color: rgb(203, 178, 106);
+}
+
+.navtabItem:hover {
+    /* color: rgb(128, 113, 113); */
+    
+    font-weight: bolder;
+}
+
+.skillCard {
+    /* background-color: black; */
+    /* border: none; */
+    border-bottom: 8px solid  rgb(203, 178, 106, 0.500);
+    /* border-right: 4px solid  rgb(203, 178, 106, 0.500); */
+    /* border-left: 1px solid  rgb(203, 178, 106, 0.500); */
+    /* border-top: 1px solid  rgb(203, 178, 106, 0.500); */
+    border-bottom-left-radius: 1.5rem;
+    border-bottom-right-radius: 2rem;
+    padding: 1rem;
+    text-align: center;
+    backdrop-filter: blur(10px);
+}
+
+.card-title {
+    color: rgb(203, 178, 106);
+    font-weight: bold;
+}
