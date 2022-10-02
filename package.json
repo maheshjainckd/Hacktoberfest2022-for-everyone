@@ -1,0 +1,22 @@
+{
+  "name": "hacktoberfest2022-for-everyone",
+  "version": "1.0.0",
+  "description": "This repository is for everyone who wants to participate in Hacktoberfest 2022. Anyone can contribute/add quality code or projects for your Swags (T- Shirt), must be relevant that can add some value to this repository.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone.git"
+  },
+  "keywords": [
+    "hacktoberfest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone/issues"
+  },
+  "homepage": "https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone#readme"
+}
