@@ -1,10 +1,5 @@
 ////////////////////////////////////////////////////////////////////////////////      
 // Name - Khushi Chaudhary
-// Roll No - 2006319
-// Branch - ME
-// Scene - Tea-Shop
-// 
-// Interaction:
 // Press the arrow keys to cycle through the objects.
 // Press x, X, y, Y, z, Z to turn the objects.
 // 
