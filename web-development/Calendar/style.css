@@ -1,0 +1,133 @@
+body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url("bg.jpg") no-repeat center/ cover;
+    overflow: hidden;
+    font-family: sans-serif;
+}
+
+body::before{
+    content: "";
+    width:  102vw;
+    position: absolute;
+    top: -100px;
+    left: -20px;
+    bottom: 0;
+    right: 0;
+    filter: blur(10px);
+    background: inherit;
+}
+
+.calender{
+    position: relative;
+    width: 300px;
+    background-color: white;
+    box-sizing: border-box;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20%;
+    transform: scale(1.0);
+    border: 2px solid black;
+    
+}
+
+.calender_pic{
+    position: relative;
+    height: 200px;
+    padding: 20px;
+    color: white;
+    background: #262626 url("bg.jpg") no-repeat center/ cover;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    
+}
+
+.calender::before{
+    content: "";
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background: linear-gradient(to top, rgba(0,0,0,0.1));
+
+}
+.changeEvery{
+    position: relative;
+    width: 100%;
+    height: 50%; 
+    position: absolute;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    /* margin-top: 4rem; */
+    background-color: rgb(0, 0, 0);
+}
+
+.calender_pic h2{
+    margin: 0;
+}
+
+.calender_pic h3{
+    margin: 0;
+    font-weight: 500;
+}
+
+.fa-angle-right{
+    position: relative;
+    justify-content: center;
+    align-items: flex;
+    margin: auto;
+}
+
+.calender_date{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+}
+
+.calender_day{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    font-weight: 600;
+    color: #262626;
+}
+
+.calender_day:nth-child(7){
+    color: #ff685d;
+}
+
+.calender_num{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    color: #262626;
+}
+
+
+.calender_num:nth-child(7n){
+    color: #ff685d;
+    font-weight: 700;
+}
+
+.calender_num--current  {
+    background-color: #009688;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+.calender_num:hover{
+    background-color: #000f96 !important;
+    color: rgb(128, 15, 15)!important;
+    font-weight: 700;
+    cursor: pointer;
+}
