@@ -1,40 +1,38 @@
-#include <iostream>
+// C++ program for implementation
+// of Bubble sort
+#include <bits/stdc++.h>
 using namespace std;
 
+// A function to implement bubble sort
+void bubbleSort(int arr[], int n)
+{
+	int i, j;
+	for (i = 0; i < n - 1; i++)
+
+		// Last i elements are already
+		// in place
+		for (j = 0; j < n - i - 1; j++)
+			if (arr[j] > arr[j + 1])
+				swap(arr[j], arr[j + 1]);
+}
+
+// Function to print an array
+void printArray(int arr[], int size)
+{
+	int i;
+	for (i = 0; i < size; i++)
+		cout << arr[i] << " ";
+	cout << endl;
+}
+
+// Driver code
 int main()
 {
-    //Taking input from the user.. 
-    //Asking array size from the user
-    int n;
-    cout<<"Enter array size : ";
-    cin>>n;
-
-    int arr[n]; //Declared an array of size n..
-    cout<<"Enter elements : ";
-    for (int i=0;i<n;i++) //To take the input of the array elements I have used for loop..
-    {
-        cin>>arr[i];
-    }
-
-    int counter=1; //Declared a variable counter for iterations and the counter will start from 1..
-    while(counter<n-1) //Taken a while loop where we will keep repeating the process until the counter is less than n-1..
-    {
-        for(int i=0;i<n-counter;i++) //If there is ith iteration then we will check till n-i..
-        {
-            if(arr[i]>arr[i+1]) //If array of i (arr[i]) is more than array of i+1 (arr[i+1])..
-            {
-                int temp=arr[i]; //I have maked a temp variable and store the value of array of i arr[i]..
-                arr[i]=arr[i+1]; //Putted array of i (arr[i]) value in array of i+1 (arr[i+1])..
-                arr[i+1]=temp; //Putted temp in array of i+1 (arr[i+1])..
-            }
-        }
-        counter++; //This will move to next iteration after the for loop is over..
-    }
-    
-    //Used a for loop to print the sorted array..
-    cout<<"Sorted array is : ";
-    for (int i = 0; i < n; i++)
-    {
-        cout << arr[i] << " ";
-    }
+	int arr[] = { 5, 1, 4, 2, 8};
+	int N = sizeof(arr) / sizeof(arr[0]);
+	bubbleSort(arr, N);
+	cout << "Sorted array: \n";
+	printArray(arr, N);
+	return 0;
 }
+// This code is contributed by rathbhupendra
