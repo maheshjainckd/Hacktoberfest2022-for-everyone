@@ -1,6 +1,7 @@
 //JAVA program for implementation of KMP pattern searching algorithm
 
-class KMP_String_Matching {
+class KMP_String_Matching 
+{
 	void KMPSearch(String pat, String txt)
 	{
 		int M = pat.length();
