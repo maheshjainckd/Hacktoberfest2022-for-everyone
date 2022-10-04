@@ -1,0 +1,28 @@
+.flex-box-rps img:hover{
+    box-shadow: 0px 10px 50px rgba(37,50, 233,1);
+}
+
+.container-1 {
+    /* display: flex; */
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    justify-content: space-around; 
+    /* flex-wrap: wrap;
+    flex-direction: row; 
+    background-color: orange;*/
+}
+
+.flex-box-rps {
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    flex-direction: row;
+    background-color: white;
+}
+
+
