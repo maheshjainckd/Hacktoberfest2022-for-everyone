@@ -1,21 +1,18 @@
+package bitMagic;
+
+import java.util.Scanner;
 
 public class PowerOf2 {
-
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println(isPowerofTwo(398));
-	}
-	
-	public static boolean isPowerofTwo(long n){
-        int x = 0;
-        while((1 << x) <= n) {
-            if((1 << x) == n) {
-                return true;
-            }
-            x++;
-        }
-        return false;
-        
+    static boolean isPowerOfTwo(int n){
+        if(n==0)
+            return false;
+        return ((n&(n-1))==0); //brains kerningam algorithm
     }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the no you want to check");
+        int num =sc.nextInt();
+        System.out.println(isPowerOfTwo(num));
 
+    }
 }
