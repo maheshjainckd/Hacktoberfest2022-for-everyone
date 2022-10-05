@@ -22,5 +22,5 @@ const products = [
     );
     alert(productsInStock.join(" - "));
   }else if (user === "no"){
-      alert('Well, thank you very much for coming!')
+      alert('Well, thank you very much for coming!!')
   }
