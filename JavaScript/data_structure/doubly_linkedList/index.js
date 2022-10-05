@@ -89,6 +89,4 @@ list.push(7);
 list.unshift(4);
 list.shift();
 
-console.log('list', list);
-
 module.exports = DoublyLinkedList;
