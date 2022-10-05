@@ -4,7 +4,7 @@ import Home from '../pages/Home'
 import Detail from '../pages/Detail'
 import NotFound from '../pages/NotFound'
 import CreateTodo from '../pages/CreateTodo';
-
+import FetchingData from './FetchingData';
 const RoutesHome = () => {
     return (
         <div>
@@ -13,6 +13,7 @@ const RoutesHome = () => {
                     <Route path='/' element={<Home />}></Route>
                     <Route path='/detail-todo/:id' element={<Detail />}></Route>
                     <Route path='/create-todo/' element={<CreateTodo />}></Route>
+                    <Route path='/fetching-data/' element={<FetchingData />}></Route>
                     <Route path='*' element={<NotFound />}></Route>
                 </Routes>
             
