@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: azure;
+    color: #00494d;
+    
+  }
+.title{
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(46, 46, 215);
+    text-shadow: 2px 2px rgb(60, 22, 22);
+ 
+  white-space: wrap;
+
+}
+.description{
+    margin: 20px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.box{
+    width: 50%;
+    height: 200px;
+    border:5px solid black; 
+}
