@@ -1,0 +1,23 @@
+.mclass {
+    align-content: center;
+
+  }
+  
+  .head_text {
+    text-align: center;
+    color: tomato;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    font-size: 50px;
+  }
+  
+  .space {
+    width: 100vw;
+    height: 100vh;
+    transform-origin: top left;
+  }
+  
+  .line-space {
+    width: 100vw;
+    height: 100vh;
+  }
+  
