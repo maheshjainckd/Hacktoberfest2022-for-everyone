@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature converter</title>
+</head>
+
+<body>
+    <img src="https://img.freepik.com/premium-photo/thermometer-against-blue-background-as-concept-ambient-temperature-3d-rendering_519469-3473.jpg?w=2000"
+        alt="" style="height:43rem; width: 96rem; background-size: cover;">
+    <div class="wrapper">
+        <h3> Welcome To Temperature Converter
+            <hr>
+        </h3>
+        <div class="value">
+            <div class="container">
+                <strong><label for="celsius">Celsius</label></strong>
+                <input type="number" id="celsius" placeholder="Enter Temperature" oninput="celToFar()">
+            </div>
+            <div class="container">
+               <strong><label for="fehrenheit">Fahrenheit</label></strong>
+                <input type="number" id="fehrenheit" placeholder="Enter Temperature" oninput="FarToCel()">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
