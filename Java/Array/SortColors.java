@@ -7,6 +7,7 @@ public class SortColors {
 		sortColors(nums);
 		for(int i: nums)
 			System.out.println(i);
+		System.out.println(Arrays.toString(nums));//This is the another method to print the array; it overrides the toString method and print the elements of the array.
 
 	}
 	public static void sortColors(int[] nums) {
