@@ -2,63 +2,31 @@
 
 using namespace std;
 
-// Checking whether a map has all the values equal to 0 in its key-value mapping
-bool isEmpty(map<char,int>m)
-{
-    for(auto y=m.begin();y!=m.end();y++)
-    {
-        if(y->second==0)
-        continue;
-        
-        else
-        return false;
-    }
+
+
+// Time Complexity:O(N!);
+
+
+// Space Complexity:O(N) 
     
-    return true;
+//     N=(length of string) 
+
+void print_permutation(string permutation,string result){
+
+    if(permutation.size()==0)cout<<result;
+    
+    for(int i=0;i<permutation.size();++i)
+        //Here What I did is just  picked up a specific character from permutation appended to result  and then removed that character from permutation
+        //This Process continues till permutation string is null
+   
+        print_permutation(permutation.substr(0,i)+permutation.substr(i+1,perutation.size()),result+permutation[i]);
+    
 }
 
+main(){
 
-void perm(map<char,int>freq,string r="")
-{
-    // Checking if all the letters have been exhausted and no further Permutations can be formed
-    if(isEmpty(freq))
-    {
-        cout<<r;
-        return;
-    }
+string premutation="Hacktoberfest";
     
-    // Traversing through all the letters of the string and then Recursively Generating the Permutations 
-    for(auto p=freq.begin();p!=freq.end();p++)
-    {
-        // If the Present Letter has already been exhausted, then do not add it and skip this specific iteration of the loop
-        if(p->second==0)
-        continue;
-        
-
-        // Making a duplicate Map containing the frequency of all the letters as it is in the present map but the particular character,pointed in this specific Iteration of the Loop has Frequency less by 1 than found in the original map 
-        map<char,int>temp;
-        
-        for(auto y=freq.begin();y!=freq.end();y++)
-        temp[y->first]=y->second;
-        
-        temp[p->first]--;
-
-
-        // Recursively calling the function with the newly formed map
-        perm(temp,r+p->first);
-    }
-}
-
-// Driver Code to test the Function
-int main() {
-
-    string s="abaaa";
-    map<char,int>m;
-    
-    for(char g:s)
-    m[g]++;
-    
-    perm(m);
-
-    return 0;
+  print_permutation(permutation,"");  
+  
 }
