@@ -24,7 +24,7 @@ def sort(a, N, up):
     bitonicSort(a, 0, N, up)
 
 
-a = [3, 7, 4, 8, 6, 2, 1, 5]
+a = [3, 7, 2, 8, 9, 2, 0, 6]
 n = len(a)
 up = 1
 
