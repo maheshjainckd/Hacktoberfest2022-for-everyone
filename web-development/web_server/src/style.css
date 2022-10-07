@@ -1,0 +1,29 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+#toggleMenu:checked + #menu {
+  display: block;
+}
+
+:root {
+  --bg-color-one: #b2f5ea;
+  --bg-color-two: #f7fafc;
+  --bg-color-three: #3c366b;
+
+  --text-colorT-one: #3c366b;
+  --text-colorT-two: #e6fffa;
+  --text-colorT-three: #4c51bf;
+}
+
+.darkmode {
+  --bg-color-one: #4a5568;
+  --bg-color-two: #2d3748;
+  --bg-color-three: #e6fffa;
+
+  --text-colorT-one: #e6fffa;
+  --text-colorT-two: #3c366b;
+  --text-colorT-three: #81e6d9;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/b1a8a7536f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <div class='flex flex-col min-h-screen bg-color-one text-colorT-one'>
+        {{>header}}
+        <main class='bg-color-two flex-grow flex'>
+            <div class="mx-4 sm:mx-8 lg:mx-16 my-2 sm:my-6 lg:my-8 ">
+                <h1 class="text-center uppercase text-xl sm:text-2xl lg:text-3xl font-semibold">{{title}}</h1>
+                <img class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-contain mt-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16"
+                    src="/img/whatHappened.jpeg" alt="bitmoji with the text 'What happened?'" />
+                <div class="leading-7 lg:text-xl leading-relaxed lg:leading-loose">
+
+                    <p class="font-bold leading-loose">What is this webpage?</p>
+                    <p>This is a very basic webpage that tells users about the weather in any location in the world. It
+                        uses data from <a href="https://www.mapbox.com/" target="_blank"
+                            class='underline hover:text-colorT-three'>mapbox.com</a> and <a
+                            href="https://weatherstack.com/" target="_blank"
+                            class='underline hover:text-colorT-three'>weatherstack.com</a>.</p>
+                    <br>
+                    <p class="font-bold leading-loose">How does it work?</p>
+                    <p>It's very simple. Click on the 'weather' tab. On this page the user will find an input box where
+                        he/she can type in the location they want. Click the 'search' button beside the input box.
+                    </p>
+                    <br>
+                    <p class="font-bold leading-loose">I followed the instructions, but got the weather information from some other place. What can I do?</p>
+                    <p>In cases like this, I suggest users be more specific with their queries.
+                        Don't just type in the city name, try typing in the country's name as well.</p>
+                    <br>
+                    <p class="font-bold leading-loose">Are you a fellow developer?</p>
+                    <p>If you are a developer and want to take a look at the code you can do so at <a
+                            href="https://github.com/Bikaskumar572/Weather_website" target="_blank"
+                            class="underline hover:text-colorT-three">https://github.com/Bikaskumar572/Weather_website</a>.</p>
+                </div>
+            </div>
+        </main>
+        {{>footer}}
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

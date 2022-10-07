@@ -1,0 +1,42 @@
+<header class="flex flex-wrap items-center bg-transparent px-2 md:px-3 lg:px-4 py-2 md:py-2 lg:py-3">
+
+    <div class="flex-1 flex items-center text-base sm:text-lg lg:text-xl">
+        <i class="fas fa-cloud-sun"></i>
+        <h1 class='ml-1 font-semibold'>Weather App</h1>
+    </div>
+
+    <label for="toggleMenu" class="pointer-cursor sm:hidden block">
+        <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+            <title>menu</title>
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+        </svg>
+    </label>
+    <input class="hidden" type="checkbox" id="toggleMenu" />
+
+    <div class="hidden sm:flex sm:items-center sm:w-auto w-full" id="menu">
+        <nav class=''>
+            <ul
+                class="absolute sm:static w-full bg-color-one opacity-97 sm:bg-transparent sm:flex items-center justify-between text-sm sm:text-base lg:text-lg -ml-2 sm:ml-0 pt-2 sm:pt-0">
+                <li><a href="/"
+                        class="block ml-6 sm:mx-1 mt-0 px-1 py-1  sm:px-2 font-semibold rounded hover:bg-color-three hover:text-colorT-two">Weather</a>
+                </li>
+                <li><a href="/about"
+                        class="block ml-6 sm:mx-1 mt-0 px-1 py-1 sm:px-2 font-semibold rounded hover:bg-color-three hover:text-colorT-two">About</a>
+                </li>
+                <li><a href="/help"
+                        class="block ml-6 sm:mx-1 mt-0 px-1 py-1 sm:px-2 font-semibold rounded hover:bg-color-three hover:text-colorT-two">Help</a>
+                </li>
+                <li>
+                    <button id="toggleDarkMode"
+                        class='flex items-center justify-end block ml-2 sm:ml-1 mt-0 px-1 py-1 sm:px-2 font-semibold rounded hover:bg-color-three hover:text-colorT-two'>
+                        <svg class="h-3 sm:h-6 sm:p-1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 496">
+                            <path fill="currentColor"
+                                d="M8,256C8,393,119,504,256,504S504,393,504,256,393,8,256,8,8,119,8,256ZM256,440V72a184,184,0,0,1,0,368Z"
+                                transform="translate(-8 -8)" /></svg>
+                        <span class='sm:hidden ml-1'>Theme</span>
+                    </button>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
