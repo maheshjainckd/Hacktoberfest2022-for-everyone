@@ -1,0 +1,1054 @@
+         - TCP Packet:
+                 - Source Port: 36966, Destination Port: 443
+                 - Sequence: 1170036230, Acknowledgement: 1106932936
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x02\xb6\xd6\x9a\xca\x94\x68
+                         \x67\xe4\x82\x0b\x4c\xad\xbb\x71\x3f\xb5\x37\x61
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 31.13.79.35, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 47878
+                 - Sequence: 388566834, Acknowledgement: 3174496074
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36966
+                 - Sequence: 1106932936, Acknowledgement: 1170036261
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 3.108.153.228
+         - TCP Packet:
+                 - Source Port: 36966, Destination Port: 443
+                 - Sequence: 1170036261, Acknowledgement: 1106932936
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36966
+                 - Sequence: 1106932936, Acknowledgement: 1170036262
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 3.108.153.228
+         - TCP Packet:
+                 - Source Port: 36968, Destination Port: 443
+                 - Sequence: 1917603637, Acknowledgement: 334260979
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x03\xa2\x41\xef\xda\xe3\x23
+                         \x86\x82\xa4\xcd\x3c\x77\x21\xf9\x61\x11\xfb\xe1
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 3.108.153.228
+         - TCP Packet:
+                 - Source Port: 36968, Destination Port: 443
+                 - Sequence: 1917603668, Acknowledgement: 334260979
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.77
+         - TCP Packet:
+                 - Source Port: 46798, Destination Port: 443
+                 - Sequence: 41696470, Acknowledgement: 2134597225
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\x1a\xa5\xc0\x34\xa3\x06\x2e\xf2\xf8\x5d\xcb\x32\x06\x7a
+                         \xd7\x4c\x63\x95\x67
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.77
+         - TCP Packet:
+                 - Source Port: 46798, Destination Port: 443
+                 - Sequence: 41696494, Acknowledgement: 2134597225
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36968
+                 - Sequence: 334260979, Acknowledgement: 1917603668
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36968
+                 - Sequence: 334260979, Acknowledgement: 1917603669
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.77, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 46798
+                 - Sequence: 2134597225, Acknowledgement: 41696494
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 54.182.0.54
+         - TCP Packet:
+                 - Source Port: 37342, Destination Port: 443
+                 - Sequence: 3291409233, Acknowledgement: 734022984
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\xec\x08\x46\xb0\x6f\x7d\x16\xf0\xbf\x31\xc5\x57\xbf\x12
+                         \x24\x3d\x11\x7b\x9b
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.77, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 46798
+                 - Sequence: 2134597225, Acknowledgement: 41696495
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 54.182.0.54, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 37342
+                 - Sequence: 734022984, Acknowledgement: 3291409257
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 54.182.0.54
+         - TCP Packet:
+                 - Source Port: 37342, Destination Port: 443
+                 - Sequence: 3291409257, Acknowledgement: 734022984
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.67
+         - TCP Packet:
+                 - Source Port: 54800, Destination Port: 80
+                 - Sequence: 2143069375, Acknowledgement: 1166019119
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 54.182.0.54, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 37342
+                 - Sequence: 734022984, Acknowledgement: 3291409258
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.67, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 54800
+                 - Sequence: 1166019119, Acknowledgement: 2143069376
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 31.13.79.35, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 47878
+                 - Sequence: 388566834, Acknowledgement: 3174496074
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x17\x03\x03\x00\x22\xa9\x5d\x8c\xf6\xe7\xc5\xfe\x35\x4f\xae\xcf\xd3\xbe\xa5
+                         \x9c\xf3\xad\x31\x20\x7d\xb7\xde\x2d\x5b\xdb\x7f\x3e\x34\x6f\x66\x52\x6a\x6e
+                         \xc6
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 31.13.79.35
+         - TCP Packet:
+                 - Source Port: 47878, Destination Port: 443
+                 - Sequence: 3174496074, Acknowledgement: 0
+                 - Flags:
+                         - URG: 0, ACK: 0, PSH: 0, RST: 1, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.182.202
+         - TCP Packet:
+                 - Source Port: 38584, Destination Port: 443
+                 - Sequence: 3500848471, Acknowledgement: 2012906877
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\x66\x50\x10\x81\x48\xb2\xdb\x24\xcc\xb0\xc4\x83\xab\x16
+                         \xb4\xf5\xde\x0a\x6b
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.182.202
+         - TCP Packet:
+                 - Source Port: 38584, Destination Port: 443
+                 - Sequence: 3500848495, Acknowledgement: 2012906877
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.182.202, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 38584
+                 - Sequence: 2012906877, Acknowledgement: 3500848495
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.182.202, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 38584
+                 - Sequence: 2012906877, Acknowledgement: 3500848496
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.107.42.14
+         - TCP Packet:
+                 - Source Port: 45238, Destination Port: 443
+                 - Sequence: 423412053, Acknowledgement: 1952468943
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x22\x80\x8f\x89\x5c\x34\x28
+                         \x3a\x82\x67\xe6\xe6\x0d\xb6\x9e\x73\xf8\x57\x6f
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.107.42.14
+         - TCP Packet:
+                 - Source Port: 45238, Destination Port: 443
+                 - Sequence: 423412084, Acknowledgement: 1952468943
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.67.227
+         - TCP Packet:
+                 - Source Port: 39054, Destination Port: 443
+                 - Sequence: 3641825040, Acknowledgement: 1360231090
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\xee\x6b\xdc\x81\xf1\x4e\x23\x3a\x6f\x61\xd8\x76\x1e\x4b
+                         \xbc\x7d\xe9\x29\x34
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.107.42.14, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 45238
+                 - Sequence: 1952468943, Acknowledgement: 423412084
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.67.227
+         - TCP Packet:
+                 - Source Port: 39054, Destination Port: 443
+                 - Sequence: 3641825064, Acknowledgement: 1360231090
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.107.42.14, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 45238
+                 - Sequence: 1952468943, Acknowledgement: 423412085
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.67
+         - TCP Packet:
+                 - Source Port: 54772, Destination Port: 80
+                 - Sequence: 3148156278, Acknowledgement: 68751212
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.67.227, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 39054
+                 - Sequence: 1360231090, Acknowledgement: 3641825064
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.174.228
+         - TCP Packet:
+                 - Source Port: 44228, Destination Port: 443
+                 - Sequence: 2528606197, Acknowledgement: 888134764
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\x82\x90\x77\x93\x48\xf2\x99\x59\xe2\x19\xee\xff\xfa\x4a
+                         \xc6\xf0\x98\x65\x54
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.67.227, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 39054
+                 - Sequence: 1360231090, Acknowledgement: 3641825065
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.174.228
+         - TCP Packet:
+                 - Source Port: 44228, Destination Port: 443
+                 - Sequence: 2528606221, Acknowledgement: 888134764
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.67, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 54772
+                 - Sequence: 68751212, Acknowledgement: 3148156279
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.174.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 44228
+                 - Sequence: 888134764, Acknowledgement: 2528606221
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 117.18.237.29
+         - TCP Packet:
+                 - Source Port: 48674, Destination Port: 80
+                 - Sequence: 1301086681, Acknowledgement: 1457006447
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.174.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 44228
+                 - Sequence: 888134764, Acknowledgement: 2528606222
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.227.138.71
+         - TCP Packet:
+                 - Source Port: 36192, Destination Port: 443
+                 - Sequence: 2594342579, Acknowledgement: 128331713
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x13\xac\x4b\x7c\xeb\xb8\x2a\x87\x17\xe5\x87\xd6\xdf\xd6\xba
+                         \x6d\x2c\x49\xdb\x5a
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 117.18.237.29, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 48674
+                 - Sequence: 1457006447, Acknowledgement: 1301086682
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.227.138.71, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36192
+                 - Sequence: 128331713, Acknowledgement: 2594342603
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36966
+                 - Sequence: 1106932936, Acknowledgement: 1170036262
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x57\x91\xcd\xe2\x6f\x00\x29\xa8\x2d\xe0\x52\x66\x0e\x34
+                         \xcf\xc9\x91\x90\x81\x83\xfb\x15\x84\x3d\xc3\x57
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 3.108.153.228
+         - TCP Packet:
+                 - Source Port: 36966, Destination Port: 443
+                 - Sequence: 1170036262, Acknowledgement: 0
+                 - Flags:
+                         - URG: 0, ACK: 0, PSH: 0, RST: 1, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.227.138.71
+         - TCP Packet:
+                 - Source Port: 36192, Destination Port: 443
+                 - Sequence: 2594342603, Acknowledgement: 128331713
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 44.231.10.174
+         - TCP Packet:
+                 - Source Port: 48812, Destination Port: 443
+                 - Sequence: 4110887191, Acknowledgement: 387467707
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x00\x00\x00\x00\x00\x00\x00\x04\x83\xd1\x23\x3a\xbc\x30
+                         \xf1\x1a\x2c\xa9\x3c\x50\x88\x23\x6c\xe3\x27\x05
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 44.231.10.174
+         - TCP Packet:
+                 - Source Port: 48812, Destination Port: 443
+                 - Sequence: 4110887222, Acknowledgement: 387467707
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 1
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.227.138.71, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36192
+                 - Sequence: 128331713, Acknowledgement: 2594342604
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 44.231.10.174, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 48812
+                 - Sequence: 387467707, Acknowledgement: 4110887222
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 44.231.10.174, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 48812
+                 - Sequence: 387467707, Acknowledgement: 4110887223
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.77, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 46798
+                 - Sequence: 2134597225, Acknowledgement: 41696495
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.77
+         - TCP Packet:
+                 - Source Port: 46798, Destination Port: 443
+                 - Sequence: 41696495, Acknowledgement: 2134597226
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.67, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 54800
+                 - Sequence: 1166019119, Acknowledgement: 2143069376
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 3.108.153.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36968
+                 - Sequence: 334260979, Acknowledgement: 1917603669
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x15\x03\x03\x00\x1a\x97\xe4\x5f\x6f\x4b\x93\x84\x24\xc3\x6d\x0a\xec\x38\x65
+                         \x65\x7b\x5b\x83\x1e\xff\xeb\xb2\xb8\x64\x1d\xd6
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.67
+         - TCP Packet:
+                 - Source Port: 54800, Destination Port: 80
+                 - Sequence: 2143069376, Acknowledgement: 1166019120
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 3.108.153.228
+         - TCP Packet:
+                 - Source Port: 36968, Destination Port: 443
+                 - Sequence: 1917603669, Acknowledgement: 0
+                 - Flags:
+                         - URG: 0, ACK: 0, PSH: 0, RST: 1, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.166.67, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 54772
+                 - Sequence: 68751212, Acknowledgement: 3148156279
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.107.42.14, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 45238
+                 - Sequence: 1952468943, Acknowledgement: 423412085
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 0
+                 - Data:
+                         \x17\x03\x03\x00\x25\x00\x00\x00\x00\x00\x00\x00\x12\x48\xde\x44\x31\x3e\xc3
+                         \x39\xb1\xe6\x5e\xd6\x50\x49\x46\x12\xab\xdc\xf4\x4b\x95\x45\xd4\x5b\x2b\xb3
+                         \xd4\x9e\x9e\x9a\x17\x03\x03\x00\x25\x00\x00\x00\x00\x00\x00\x00\x13\x40\xab
+                         \x79\x39\x78\x2d\xce\x37\x4e\x65\xdb\x4b\xe4\x77\xc8\x73\x42\x72\x65\x6c\x20
+                         \xaf\x1c\x80\xa7\xce\x2c\x60\x99
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.166.67
+         - TCP Packet:
+                 - Source Port: 54772, Destination Port: 80
+                 - Sequence: 3148156279, Acknowledgement: 68751213
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.107.42.14
+         - TCP Packet:
+                 - Source Port: 45238, Destination Port: 443
+                 - Sequence: 423412085, Acknowledgement: 0
+                 - Flags:
+                         - URG: 0, ACK: 0, PSH: 0, RST: 1, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.182.202, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 38584
+                 - Sequence: 2012906877, Acknowledgement: 3500848496
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 172.217.174.228, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 44228
+                 - Sequence: 888134764, Acknowledgement: 2528606222
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.182.202
+         - TCP Packet:
+                 - Source Port: 38584, Destination Port: 443
+                 - Sequence: 3500848496, Acknowledgement: 2012906878
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 172.217.174.228
+         - TCP Packet:
+                 - Source Port: 44228, Destination Port: 443
+                 - Sequence: 2528606222, Acknowledgement: 888134765
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 44.231.10.174, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 48812
+                 - Sequence: 387467707, Acknowledgement: 4110887223
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x17\x03\x03\x00\x1a\xbf\xdf\x1f\x50\x21\xc7\xec\x89\x69\x56\xde\x31\x3e\x07
+                         \xea\xce\xbe\xb1\x11\x6c\xc2\x10\xf1\xe4\x72\xf9\x15\x03\x03\x00\x1a\xbf\xdf
+                         \x1f\x50\x21\xc7\xec\x8a\x12\x3a\x0e\xb2\x3a\x7b\x06\x74\xe3\x84\x2f\xf5\xa2
+                         \x46\x5c\xc0\xf8\xbf
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 44.231.10.174
+         - TCP Packet:
+                 - Source Port: 48812, Destination Port: 443
+                 - Sequence: 4110887223, Acknowledgement: 0
+                 - Flags:
+                         - URG: 0, ACK: 0, PSH: 0, RST: 1, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 117.18.237.29, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 80, Destination Port: 48674
+                 - Sequence: 1457006447, Acknowledgement: 1301086682
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 117.18.237.29
+         - TCP Packet:
+                 - Source Port: 48674, Destination Port: 80
+                 - Sequence: 1301086682, Acknowledgement: 1457006448
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 142.250.67.227, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 39054
+                 - Sequence: 1360231090, Acknowledgement: 3641825065
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 142.250.67.227
+         - TCP Packet:
+                 - Source Port: 39054, Destination Port: 443
+                 - Sequence: 3641825065, Acknowledgement: 1360231091
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 54.182.0.54, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 37342
+                 - Sequence: 734022984, Acknowledgement: 3291409258
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 54.182.0.54
+         - TCP Packet:
+                 - Source Port: 37342, Destination Port: 443
+                 - Sequence: 3291409258, Acknowledgement: 734022985
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:FF:B1:E6, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 128,
+                 - Protocol: 6, Source: 13.227.138.71, Target: 192.168.133.131
+         - TCP Packet:
+                 - Source Port: 443, Destination Port: 36192
+                 - Sequence: 128331713, Acknowledgement: 2594342604
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 1, RST: 0, SYN: 0, fin: 1
+                 - Data:
+                         \x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:FF:B1:E6, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 6, Source: 192.168.133.131, Target: 13.227.138.71
+         - TCP Packet:
+                 - Source Port: 36192, Destination Port: 443
+                 - Sequence: 2594342604, Acknowledgement: 128331714
+                 - Flags:
+                         - URG: 0, ACK: 1, PSH: 0, RST: 0, SYN: 0, fin: 0
+                 - Data:
+
+
+Ethernet Frame: 
+         - Destination: FF:FF:FF:FF:FF:FF, Source: 00:50:56:C0:00:08, Protocol: 1544
+
+Ethernet Frame: 
+         - Destination: 00:50:56:EB:E5:E0, Source: 00:0C:29:7E:1C:93, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 64,
+                 - Protocol: 17, Source: 192.168.133.131, Target: 192.168.133.254
+         - UDP Packet:
+                 - Source Port: 68, Destination Port: 67, Length: 36358
+                 - Data:
+                         \x01\x01\x06\x00\xc9\xf8\xb6\xab\x00\x01\x00\x00\xc0\xa8\x85\x83\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x0c\x29\x7e\x1c\x93\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x63\x82\x53\x63\x35\x01\x03\x3d\x07\x01\x00
+                         \x0c\x29\x7e\x1c\x93\x37\x11\x01\x02\x06\x0c\x0f\x1a\x1c\x79\x03\x21\x28\x29
+                         \x2a\x77\xf9\xfc\x11\x39\x02\xff\xff\x0c\x04\x6b\x61\x6c\x69\xff
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:EB:E5:E0, Protocol: 8
+         - IPv4 Packet: 
+                 - Version: 4, Header Length: 20, TTL: 16,
+                 - Protocol: 17, Source: 192.168.133.254, Target: 192.168.133.131
+         - UDP Packet:
+                 - Source Port: 67, Destination Port: 68, Length: 44952
+                 - Data:
+                         \x02\x01\x06\x00\xc9\xf8\xb6\xab\x00\x01\x00\x00\xc0\xa8\x85\x83\xc0\xa8\x85
+                         \x83\xc0\xa8\x85\xfe\x00\x00\x00\x00\x00\x0c\x29\x7e\x1c\x93\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00
+                         \x00\x00\x00\x00\x00\x00\x00\x00\x63\x82\x53\x63\x35\x01\x05\x36\x04\xc0\xa8
+                         \x85\xfe\x33\x04\x00\x00\x07\x08\x01\x04\xff\xff\xff\x00\x06\x04\xc0\xa8\x85
+                         \x02\x0f\x0b\x6c\x6f\x63\x61\x6c\x64\x6f\x6d\x61\x69\x6e\x1c\x04\xc0\xa8\x85
+                         \xff\x03\x04\xc0\xa8\x85\x02\xff\x00\x00\x00\x00\x00\x00\x00
+
+Ethernet Frame: 
+         - Destination: 00:50:56:EB:E5:E0, Source: 00:0C:29:7E:1C:93, Protocol: 1544
+
+Ethernet Frame: 
+         - Destination: 00:0C:29:7E:1C:93, Source: 00:50:56:EB:E5:E0, Protocol: 1544
+         
+Ethernet Frame: 
+         - Destination: FF:FF:FF:FF:FF:FF, Source: 00:50:56:C0:00:08, Protocol: 1544
+
+Ethernet Frame: 
+         - Destination: FF:FF:FF:FF:FF:FF, Source: 00:50:56:C0:00:08, Protocol: 1544
