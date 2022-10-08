@@ -1,0 +1,35 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int factorial(int n)
+{
+    return n == 1 ? 1 : n * factorial(n - 1);
+}
+
+int nPr(int n, int r)
+{
+    return factorial(n) / factorial(n - r);
+}
+
+int nCr(int n, int r)
+{
+    return factorial(n) / (factorial(n - r) * factorial(r));
+}
+
+int main()
+{
+    int n, r, l,k;
+
+    cout << "Enter the value of n:" << endl;
+    cin >> n;
+
+    cout << "Enter the value of r:" << endl;
+    cin >> r;
+
+    l = nPr(n, r);
+    k = nCr(n, r);
+
+    cout << "Permutation,nPr : "<< l << endl;
+    cout << "Combination,nCr : "<< k << endl;
+}
