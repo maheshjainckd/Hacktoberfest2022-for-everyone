@@ -1,0 +1,96 @@
+.card {
+    background-color: #000000d0;
+    color: aliceblue;
+    padding: 2em;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: #222;
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(./osman-rana-HOtPD7Z_74s-unsplash.jpg);
+    font-size: 120%;
+    
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+
+}
+
+button {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    
+    width: 44px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+input.search-bar {
+    border: none;
+    outline: none;
+    padding: 0.5em;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100%-100px);
+}
+
+
+button:hover {
+    background: #7c7c7c6b;
+}
+
+h1.temp{
+    margin: 0;
+    margin-bottom: 0.4em;
+
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+
+.description{
+    text-transform: capitalize;
+    margin-left: 8px;
+}
+
+.weather-loading{
+    visibility: hidden;
+    max-height: 20px;
+    position: relative;
+}
+
+.weather.loading:after {
+    visibility: visible;
+    content: "Loading...";
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 20px;
+  }
+
+.flex{
+    display: flex;
+    align-items: center;
+}
