@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.footer {
+    z-index: 2;
+    padding: 2px;
+    background-image: url("../images/wave2.png");
+    background-position: 50px;
+    background-color: rgb(53, 53, 53);
+}
+
+.row {
+    padding-top: 10px;
+    width: inherit;
+    width: 100%;
+}
+
+.row h6 {
+    padding-left: 30px;
+}
+
+.footer-col {
+    font-size: 0.5em;
+    color: white;
+    border-right: 2px solid rgb(112, 112, 112);
+}
+
+.footer-col li {
+    font-size: 2em;
+    list-style: none;
+    animation: all 1.5s;
+}
+
+.footer-col #linkedin a {
+    transition: all 0.5s;
+}
+
+.footer-col #linkedin a:hover {
+    text-shadow: 0px 0px 1px white;
+    font-size: 1.4em;
+    color: rgb(0, 110, 255);
+}
+
+.footer-col #instagram a {
+    transition: all 0.5s;
+}
+
+.footer-col #instagram a:hover {
+    text-shadow: 1px 1px white;
+    font-size: 1.4em;
+    color: rgb(255, 25, 25);
+}
+
+.footer-col #github a {
+    transition: all 0.5s;
+}
+
+.footer-col #github a:hover {
+    text-shadow: 1px 1px white;
+    font-size: 1.4em;
+    color: rgb(128, 128, 128);
+}
+
+.footer-col li a {
+    text-decoration: none;
+    color: white;
+}
+
+#mail, #phone, #fiver, #hte {
+    transition: all 0.5s;
+}
+
+.footer-col #mail:hover {
+    font-size: 2.1em;
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    color: rgb(255, 29, 29);
+    text-decoration: none;
+}
+
+.footer-col #phone:hover {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    font-size: 2.1em;
+    color: rgb(76, 159, 236);
+    text-decoration: none;
+}
+
+.footer-col #fiver:hover {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    font-size: 2.1em;
+    color: rgb(0, 247, 41);
+    text-decoration: none;
+}
+
+#hte:hover {
+    text-shadow: 1px 1px rgb(54, 54, 54);
+    font-size: 1.1em;
+    color: rgb(0, 247, 41);
+    text-decoration: none;
+}
+
+.projects ul li a{
+    transition: all 0.6s;
+}
+.projects ul li a:hover{
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width: 995px) {
+    .footer-back {
+        height: 400px;
+    }
+}

@@ -1,0 +1,96 @@
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.deposite-container {
+    padding-top: 30px;
+    width: 100%;
+    background-color: rgb(54, 54, 54);
+    text-align: center;
+    min-height: 100vh;
+}
+
+.form-container {
+    padding: auto;
+    max-width: 40vw;
+    min-height: 25vw;
+    border-radius: 20px;
+    color: aliceblue;
+    text-align: start;
+    background: linear-gradient(to right bottom, rgba(207, 207, 207, 0.5), rgba(43, 43, 43, 0.5));
+    box-shadow: 2px 2px white;
+}
+
+.form-container form {
+    padding: 3vw;
+}
+
+h1 {
+    color: white;
+    font-size: 3vw;
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+
+.form-container h2 {
+    text-shadow: 1px 1px black;
+    font-size: 2.1vw;
+}
+
+.form-container input {
+    width: 20vw;
+    background: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: aliceblue;
+    outline: none;
+    transition: all 0.5s;
+}
+
+.form-container input:focus {
+    outline: none;
+    width: 20vw;
+    border: none;
+    background-color: transparent;
+    border-bottom: 5px solid white;
+}
+
+.depo-message {
+    margin-top: 30px;
+}
+
+.depo-message h1 {
+    color: white;
+    font-size: 3vw;
+    text-shadow: 2px 2px black;
+    text-transform: capitalize;
+}
+
+.customer-list-depo {
+    width: 20vw;
+    font-size: 1.1vw;
+    outline: none;
+    border-radius: 5px;
+    background-color: rgb(58, 58, 58);
+    color: rgb(223, 221, 221);
+    margin-bottom: 10px;
+}
+
+.btndw {
+    border: none;
+    border-radius: 5px;
+    width: 20vw;
+    padding: 5px 0px;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 850px) {
+    .form-container, .withdraw-container {
+        max-width: 90vw;
+    }
+}

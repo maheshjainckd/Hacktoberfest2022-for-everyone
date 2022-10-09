@@ -1,0 +1,9 @@
+.error{
+    color: aliceblue;
+    text-align: center;
+    font-size: 2.1vw;
+}
+.error img {
+    width: 25vw;
+    height: auto;
+}

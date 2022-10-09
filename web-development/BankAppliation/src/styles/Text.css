@@ -1,0 +1,14 @@
+.text-container {
+    position: relative;
+   
+}
+
+.text-container h1 {
+    width: 100%;
+    color: rgb(204, 204, 204);
+    text-shadow: 2px 2px rgb(48, 48, 48);
+    font-size: 8vw;
+    overflow: hidden;
+   
+
+}
