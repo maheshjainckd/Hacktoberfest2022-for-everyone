@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: rgb(54, 54, 54);
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+
+
+.App {
+    background-color: rgb(54, 54, 54);
+    z-index: -1;
+    min-height: 100vh;
+}

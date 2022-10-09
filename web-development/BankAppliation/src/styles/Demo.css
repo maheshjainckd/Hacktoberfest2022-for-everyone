@@ -1,0 +1,122 @@
+.demo-class {
+    padding: 0px;
+    min-height: 100vh;
+    overflow: hidden;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    transition: 1.3s;
+    width: auto;
+}
+
+.demo-header {
+    text-align: center;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px rgb(145, 145, 145);
+    font-size: 3vw;
+}
+
+#name, #account, #amount {
+    font-weight: bolder;
+    color: rgb(230, 230, 230);
+    text-shadow: 1px 1px rgb(10, 10, 10);
+}
+
+.demo-intro {
+    text-decoration: underline;
+    margin: auto;
+    box-shadow: 2px 2px 2px white;
+    padding: 10px 40px;
+    width: 40vw;
+    background: linear-gradient(to right bottom, rgba(165, 165, 165, 0.5), rgba(100, 100, 100, 0.5));
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.demo-intro span {
+    font-size: 1.5vw;
+}
+
+.demo-form {
+    background: linear-gradient(to right bottom, rgba(165, 165, 165, 0.5), rgba(100, 100, 100, 0.5));
+    border-radius: 20px;
+    padding: 60px 40px;
+    width: 40vw;
+    margin: auto;
+    box-shadow: 2px 2px 2px white;
+}
+
+.demo-form input {
+    outline: none;
+    width: 20vw;
+    border: none;
+    background-color: transparent;
+    border-bottom: 5px solid white;
+    color: aliceblue;
+    transition: all 0.7s;
+}
+
+.demo-form input:focus {
+    width: 20vw;
+    border: none;
+    background-color: transparent;
+    border-bottom: 5px solid white;
+    transform: translateX(15px) scale(1.1)
+}
+.demo-form span{
+    font-size: 1.1vw;
+}
+.demo-message {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 2px 2px black;
+    transition: all 1s;
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+
+.btnn {
+    width: 10vw;
+    text-align: center;
+    overflow: hidden;
+    font-size: 1.2vw;
+    font-weight: bolder;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 5px;
+    z-index: -2;
+}
+
+.customer-list {
+    width: 20vw;
+    background-color: gray;
+    color: rgba(255, 255, 255, 0.753);
+    font-weight: bolder;
+    text-shadow: 1px 1px black;
+    outline: none;
+    z-index: -1;
+    font-size: 1.1vw;
+    padding: 2px 10px;
+    overflow-y: scroll;
+    transition: all 1s;
+    
+}
+
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+@media only screen and (max-width: 850px) {
+    .demo-intro {
+        width: 90vw;
+    }
+    .demo-form {
+        width: 90vw;
+    }
+}
