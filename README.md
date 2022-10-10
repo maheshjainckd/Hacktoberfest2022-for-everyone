@@ -1,3 +1,7 @@
+# <center> {EXCLUDED} 🥺 From Hacktoberfest2022</center>
+## {EXCLUDED} 😐 Contribute to Repositories for HacktoberFest 2022 👇
+##### https://github.com/dikshantrajput/hacktoberfest-2022-react
+##### https://github.com/dikshantrajput/Hacktoberfest-accepted-2022
 # <center> Hacktober Fest 2022 For Everyone! </center>
 
 <p align="center">
@@ -45,6 +49,14 @@ If you liked working on this project, please share this project as much as you c
 3. If Specified Language Folder not Found then Create Folder and then Upload or Create File.
 4. Please mention the extention of files while creating them (e.g if file is of java language create file named "xyz.java").
 5. Don't change the styling of contributors.html file i.e don't format the file with prettier or any other extensions.
+6. In case you need to add an external package, install it by using npm. Don't push the complete package file here
+
+
+## Our valuable Contributors👩‍💻👨‍💻 :
+
+<a href="https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone/graphs/contributors">
+  <img src="https://contributors-img.web.app/image?repo=maheshjainckd/Hacktoberfest2022-for-everyone" />
+</a>
 
 ## Special thanks:+1: to:
 

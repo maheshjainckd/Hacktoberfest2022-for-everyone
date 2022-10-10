@@ -1,0 +1,61 @@
+#include<iostream>
+#include<string.h>
+
+using namespace std;
+
+int main(){
+    int key[10],i,j,s,len,k=0,temp,z=0;
+    char in[15][15];
+    string message;
+
+    cout<<"Enter key size\n";
+    cin>>s;
+    cout<<"Enter key\n";
+    for(i=0;i<s;i++){
+        cin>>key[i];
+    }
+    cout<<"Enter message\n";
+    cin>>message;
+    len = message.length();
+    
+    k=0;
+    for(i=0;i<len;i++){
+        for(j=0;j<s;j++){
+        	if(k==len){
+        		break;
+			}
+			else{
+			in[i][j] = message[k];
+            k++;
+			}
+        }
+    }
+    
+    k=0;
+    cout<<"Matrix is :\n";
+     for(i=0;i<len;i++){
+        for(j=0;j<s;j++){
+        	if(k==len){
+        		break;
+			}
+			else{
+            cout<<in[i][j]<<"|";
+            k++;
+        }
+        }
+        cout<<"\n";
+        z=i;
+    }
+	
+	cout<<"Encrypted message is :\n";
+	for(i=0;i<s;i++){
+		temp = key[i] - 1;
+		for(j=0;j<z;j++){
+			if(in[j][temp]==NULL)
+			break;
+			else
+			cout<<in[j][temp];
+		}
+	}
+    
+}
