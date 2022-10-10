@@ -1,0 +1,66 @@
+.login-container {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    min-height: 100vh;
+    background-color: rgb(54, 54, 54);
+}
+
+.particles {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.login-heading {
+    text-align: center;
+    position: relative;
+    top: 23vh;
+    text-decoration: underline ;
+    color: rgb(192, 192, 192);
+}
+
+.login-form {
+    background: linear-gradient(to bottom right, rgba(151, 143, 143, 0.685), rgba(122, 122, 122, 0.5));
+    padding: 20px 20px;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.534);
+    border-radius: 10px;
+    max-width: 30vw;
+    margin: auto;
+    position: relative;
+    top: 23vh;
+    overflow: hidden;
+}
+
+.login-form h4 {
+    color: aliceblue;
+    font-size: 1.3vw;
+    text-shadow: 1px 1px black;
+}
+
+.login-form input {
+    width: 100%;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    -webkit-appearance: none;
+    color: aliceblue;
+}
+
+.login-form button {
+    margin-top: 20px;
+    width: 100%;
+    font-size: 1vw;
+    border: none;
+    color: rgb(233, 233, 233);
+    font-weight: bold;
+    background-color: rgba(163, 0, 0, 0.63);
+    border-radius: 5px;
+    padding: 10px;
+    transition: all 0.5s;
+}
+
+.login-form button:hover {
+    background-color: rgb(163, 0, 0);
+}
