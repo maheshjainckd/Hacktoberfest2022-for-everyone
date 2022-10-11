@@ -1,0 +1,98 @@
+/* clearing css */
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.red {
+	color: red;
+}
+
+.container {
+	width: 50%;
+	margin: 5vw auto;
+	text-align: center;
+}
+
+.title {
+	font-size: 3vw;
+	font-weight: 700;
+	margin-bottom: 2vw;
+}
+
+.desc {
+	font-size: 1.7vw;
+	font-weight: 600;
+	margin-bottom: 3vw;
+}
+
+.form-group {
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 1.3vw;
+	position: relative;
+}
+
+.form-group label {
+	font-size: 1.5vw;
+	font-weight: 500;
+	margin-bottom: 1.3vw;
+}
+
+.form-group input {
+	padding: 0.7vw;
+	font-size: 1.4vw;
+}
+
+.btn {
+	margin-top: 2.3vw;
+	text-align: left;
+	margin-bottom: 3vw;
+}
+
+#btn-calc {
+	padding: 0.8vw 1vw;
+	font-size: 1.2vw;
+	border-radius: 5px;
+	border: none;
+	background-color: #0289ff;
+	color: #fafafa;
+	cursor: pointer;
+}
+
+#btn-calc:hover {
+	background-color: #0275d8;
+}
+
+.result-place {
+	text-align: left;
+}
+
+#result {
+	font-size: 1.5vw;
+	font-weight: 500;
+}
+
+.error {
+	color: red;
+	visibility: hidden;
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	background-color: #1f2d3d;
+	color: #fafafa;
+	height: 50px;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}

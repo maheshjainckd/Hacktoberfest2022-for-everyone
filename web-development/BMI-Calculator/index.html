@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<title>BMI Calculator</title>
+	</head>
+	<body>
+		<div class="container">
+			<p class="title">Check your BMI</p>
+			<p class="desc">
+				Enter your weight an height below to check your BMI results
+			</p>
+
+			<div class="form-group">
+				<label for="weight"
+					>Put your weight in here (KG) <span class="red">*</span>
+				</label>
+				<input type="number" name="weight" id="weight" placeholder="60" />
+				<span class="error" id="error-weight">Please fill out this field</span>
+			</div>
+			<div class="form-group">
+				<label for="height"
+					>Put your height in here (CM) <span class="red">*</span></label
+				>
+				<input type="number" name="height" id="height" placeholder="167" />
+				<span class="error" id="error-height">Please fill out this field</span>
+			</div>
+			<div class="btn">
+				<button type="button" onclick="calculate()" id="btn-calc">
+					Caluclate BMI
+				</button>
+			</div>
+			<div class="result-place">
+				<p id="result"></p>
+			</div>
+		</div>
+
+		<footer>
+			<span
+				>&copy; 2022 | Created with <i class="fa-solid fa-heart"></i> by
+				Muhammad Sabili Nurilhaq</span
+			>
+		</footer>
+		<script src="script.js"></script>
+	</body>
+</html>
