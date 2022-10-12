@@ -1,0 +1,19 @@
+{
+  "name": "stopwatch",
+  "version": "1.0.0",
+  "description": "Simple stopwatch app written in JavaScript",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArturHarutyunyan1/stopwatch.git"
+  },
+  "author": "Artur Harutyunyan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ArturHarutyunyan1/stopwatch/issues"
+  },
+  "homepage": "https://github.com/ArturHarutyunyan1/stopwatch#readme"
+}
