@@ -1,0 +1,22 @@
+let x = Math.floor((Math.random() * 100) + 1);
+
+let n = prompt("Enter your guess: ");
+n = Number.parseInt(n);
+let score = 1;
+
+while (n != x) {
+  if (n < x) {
+    score++;
+    console.log("Your guess is smaller!!! Try a bigger number");
+    n = prompt("Enter your guess: ");
+    n = Number.parseInt(n);
+  }
+  else if (n > x) {
+    score++;
+    console.log("Your guess is greater!!! Try a smaller number");
+    n = prompt("Enter your guess: ");
+    n = Number.parseInt(n);
+  }
+}
+console.log("The number was: " + x);
+console.log("Your score is: " + score);
