@@ -1,64 +1,55 @@
-var doc=document.querySelectorAll(".drum");
-for(var i=0;u=i<doc.length;i++)
-doc[i].addEventListener("click",handleClick);
-function handleClick()
-{
-    var buttonHTML= this.innerHTML;
-    soundMaker(buttonHTML);
-    buttonAnimation(buttonHTML);
-    
-}
-document.addEventListener("keydown", function(event){
-   soundMaker(event.key); 
-   buttonAnimation(event.key);
-});
+var noOfDrums = document.querySelectorAll(".note").length;
+for(var i = 0; i<noOfDrums; i++){
+  document.querySelectorAll(".note")[i].addEventListener("click",function(){
 
-function soundMaker(key)
-{
-    switch(key)
-    {
-        case 'w':
-            new Audio('sounds/tom-1.mp3').play();
-            break;
-        
-        case 'a':
-            new Audio('sounds/tom-2.mp3').play();
-            break;
-        
-        case 's':
-            new Audio('sounds/tom-3.mp3').play();
-            break;
-        
-        case 'd':
-            new Audio('sounds/tom-4.mp3').play();
-            break;
-            
-        case 'j':
-            new Audio('sounds/snare.mp3').play();
-            break;
+   var buttonInnerHTML = this.innerHTML;
+   makeSound(buttonInnerHTML);
+   buttonAnimation(buttonInnerHTML);
 
-        case 'k':
-            new Audio('sounds/kick-bass.mp3').play();
-            break;
-
-        case 'l':
-            new Audio('sounds/crash.mp3').play();
-            break;
-
-        default: 
-        console.log(key);
     }
+  );
 }
-
-
+function makeSound(key){
+  switch (key) {
+    case 'E':
+    var tom1 = new Audio("sounds/chordE.mp3");
+    tom1.play();
+    break;
+    case 'B':
+    var tom2 = new Audio("sounds/chordB.mp3");
+    tom2.play();
+    break;
+    case 'G':
+    var tom3 = new Audio("sounds/chordG.mp3");
+    tom3.play();
+    break;
+    case 'D':
+    var tom4 = new Audio("sounds/chordD.mp3");
+    tom4.play();
+    break;
+    case 'A':
+    var snare = new Audio("sounds/chordA.mp3");
+    snare.play();
+    break;
+    case 'F':
+    var crash = new Audio("sounds/chordF.mp3");
+    crash.play();
+    break;
+    case 'C':
+    var kick = new Audio("sounds/chordC.mp3");
+    kick.play();
+    break;
+    case 'Dm':
+    var chord = new Audio("sounds/chordDm.mp3");
+    kick.play();
+    break;
+  }
+}
 function buttonAnimation(currentKey){
-    var activeButton=document.querySelector("."+currentKey);
-    activeButton.classList.add("pressed");
-    setTimeout(function(){
-        activeButton.classList.remove("pressed");
-    },200);
+  var presentKey = document.querySelector("."+ currentKey);
+  presentKey.classList.add("pressed");
+
+setTimeout(function(){
+  presentKey.classList.remove("pressed");
+}, 100);
 }
-
-
-
-
