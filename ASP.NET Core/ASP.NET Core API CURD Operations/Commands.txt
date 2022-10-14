@@ -1,0 +1,16 @@
+
+
+dotnet add package Microsoft.EntityFrameworkCore --version 6.0.10
+
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.10
+
+dotnet add package Microsoft.EntityFrameworkCore.Design --version 6.0.10
+
+dotnet add package Swashbuckle.AspNetCore --version 6.4.0
+
+dotnet ef dbcontext scaffold "Server=.\;Database=SimpleAPI_DB;Trusted_Connection=True;" Microsoft.EntityFrameworkCore.SqlServer -o Model
+
+
+
+
+
