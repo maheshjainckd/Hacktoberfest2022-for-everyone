@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    --bgColor:#c32127;
+    --nav:#2d3e50;
+}
+a{
+    text-decoration: none;
+}
+li{list-style: none;}
+h1,h2,h3,h4,h5,h6,p,a,li{font-weight: 600;}
+.logo{
+    font-size: 80px;
+}
+.appointment{
+    width: 15rem;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.appointment-a:hover{
+    color: var(--bgColor) !important;
+}
+/* Navbar Styling */
+
+.navbar{margin: 0;background-color: #2d3e50 !important;}
+.navbar .nav-link{text-transform:uppercase;color: #fff;font-weight: 600;margin-left: 30px;}
+.navbar .nav-link:hover{color:var(--bgColor);border-bottom: 2px solid var(--bgColor);}
+.navbar .active{border-bottom: 2px solid var(--bgColor);}
+.profile{background-color: var(--bgColor);}
+
+
+/* End of Navbar Styling */
+
+/* Styling footer top section */
+.footer-top{
+    width: 100%;
+    height: 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:var(--bgColor) !important;
+}
+.footer_top{
+    margin-left: 13rem;
+}
+
+/* End of footer top section */
+
+/* Slider Section Styling  */
+
+.carousel-item img{width: 100%;height:100%;}
+
+/* End of Slider section Styling */
+
+/* Serives Sections Styles */
+.services{
+    font-size: 20px;
+}
+.notice-board{
+    background-color: var(--nav);
+    color:#fff;
+}
+.notice_board_heading{
+    width: 50%;
+    background-color: var(--bgColor);
+    color: #fff;    
+    padding: 10px 5px;
+    border-radius: 1px;
+    text-transform: uppercase;
+}
+/* End of Services sections Styles */
+
+/* About Section Start  */
+.about{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.about_img{
+    margin: 0;
+    padding: 0;
+}
+.about_text{
+    background-color: var(--nav);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.about_top_heading{
+    color: #75d7f7;
+    display: block;
+    font-size: 22px;
+    line-height: 22px;
+    padding: 0 0 20px;
+    text-transform: uppercase;
+}
+/* About section end */
+
+
+
+/* Cards  Section is Start */
+.health_tips_btn{
+    border-radius: 0px !important;
+}
+/* Cards Section is End */
+
+
+/* Footer section style */
+.footer{
+    margin-bottom: 0;
+    width: 100%;
+    background-color: #183650;
+    color: #fff;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.footer .footer-heading{
+    /* width: 8rem; */
+    border-bottom: 3px solid var(--bgColor);
+    text-align: center;
+}
+
+.footer .social{
+    width: 45px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 15px;
+}
+.footer .social:hover{
+    background-color: var(--bgColor);
+    color: #fff;
+    border: none;
+}
+
+/* End of footer section style */
+
+@media screen and (max-width:900px) {
+    body{
+        overflow-x: hidden;
+    }
+    .appointment{
+        width: 10rem;
+        font-size: 15px;
+    }
+    .footer-top{
+        display: none;
+    }
+}
+.hamburger-menu{
+    width: 20% !important;
+}
