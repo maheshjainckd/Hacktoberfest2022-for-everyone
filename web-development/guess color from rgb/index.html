@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Random Color Challenge</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Random Color Challenge</h1>
+    <div class="questionContainer">
+      <div class="question"><h2>Find The Color With Given RGB Value</h2></div>
+      <br />
+    </div>
+    <h2><div id="RGBLine"></div></h2>
+    <br />
+    <br />
+    <div class="optionsbar">
+      <div class="mode">GameMode:</div>&emsp14; &emsp14;
+      <strong><div class="modeValue" >easy</div></strong> &emsp14; &emsp14;
+      <label class="switch">
+        <input type="checkbox" name="mode" value="easy" >
+        <span class="slider round" id="gameMode" value="easy"></span>
+      </label> &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14;
+     <button class = "hintButton">Answer</button>
+     &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14; &emsp14;
+     <button class = "resetButton">Reset</button>
+    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+    <div class = RGBOPTIONSHOLDER >
+      <button
+        type="button"
+        class="RGBOptions"
+        id="one"
+        onclick="checkResult()"
+      ></button>     &emsp14; &emsp14; &emsp14; &emsp14;
+      <button
+        type="button"
+        class="RGBOptions"
+        id="two"
+        onclick="checkResult()"
+      ></button>     &emsp14; &emsp14; &emsp14; &emsp14;
+      <button
+        type="button"
+        class="RGBOptions"
+        id="three"
+        onclick="checkResult()"
+      ></button>     &emsp14; &emsp14; &emsp14; &emsp14;
+      <button
+        type="button"
+        class="RGBOptions"
+        id="four"
+        onclick="checkResult()"
+      ></button>     &emsp14; &emsp14; &emsp14; &emsp14;
+    </div>
+    <script src="random.js"></script>
+  </body>
+</html>
