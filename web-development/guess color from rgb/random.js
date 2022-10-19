@@ -6,7 +6,7 @@ function RandomrbgGenerator() {
 }
 
 function RGBOptionsGenerator(intial, mode = "easy") {
-  console.log({ mode });
+  // console.log({ mode });
   let options = [];
   if (mode === "easy") {
     for (let i = 3; i--; ) {
@@ -34,14 +34,14 @@ function RGBOptionsGenerator(intial, mode = "easy") {
       );
     }
     options.push(`rgb(${intial})`);
-    console.log({ options });
+    // console.log({ options });
     return shuffleArray(options);
   }
 }
 function exec() {
   const intial = RandomrbgGenerator();
   const rgbline = document.getElementById("RGBLine");
-  console.log({ rgbline });
+  // console.log({ rgbline });
   rgbline.textContent = `rgb(${intial})`;
   const rgboptions = $(".RGBOptions").toArray();
   RGBOptionsGenerator(
@@ -66,16 +66,16 @@ $(document).ready(function () {
 });
 $(document).click(function (event) {
   const target = event.target;
-  console.log(target.getAttribute("class"));
+  // console.log(target.getAttribute("class"));
   if (target.getAttribute("class") !== "RGBOptions") {
   } else {
     setTimeout(() => {
       const rgbline = document.getElementById("RGBLine").textContent;
-      console.log({
-        cond: target.style.backgroundColor.replaceAll(" ", "") === rgbline,
-        tar: target.style.backgroundColor.replaceAll(" ", ""),
-        rg: rgbline,
-      });
+      //  console.log({
+      //   cond: target.style.backgroundColor.replaceAll(" ", "") === rgbline,
+      //   tar: target.style.backgroundColor.replaceAll(" ", ""),
+      //   rg: rgbline,
+      // });
       if (target.style.backgroundColor.replaceAll(" ", "") === rgbline) {
         alert("You Win!");
         exec();
@@ -90,7 +90,7 @@ function checkResult() {
   const rgbline = document.getElementById("RGBLine").textContent;
   const rgboptions = $(".RGBOptions").toArray();
   rgboptions.forEach((a, y) => {
-    console.log({ a: a.style.backgroundColor, rgbline });
+    // console.log({ a: a.style.backgroundColor, rgbline });
     if (a.style.backgroundColor.replaceAll(" ", "") !== rgbline) {
       $(a).css("opacity", "0.5");
     }
