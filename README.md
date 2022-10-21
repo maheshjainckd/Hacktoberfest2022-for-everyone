@@ -29,7 +29,7 @@ Hacktoberfest is a program by Digital Ocean, DEV and Github, where you can easil
 
 Add any of your simple or complex Project/Program in any language you like in this repository by clicking "Add File -> Create new File".
 
-### 3. Mention your name in the contributors.html file
+### 3. Mention your name in the contributors.html file.
 
 https://github.com/maheshjainckd/Hacktoberfest2022-for-everyone/blob/main/contributors.html
 
