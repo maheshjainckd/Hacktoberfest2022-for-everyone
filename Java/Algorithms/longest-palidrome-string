@@ -1,0 +1,27 @@
+class LPS {
+    static int maximum(int x, int y) {
+        return (x > y) ? x : y;
+    }
+ 
+    static int longest_palindrome_string(char arr[], int i, int j) {
+        if (i == j) {
+            return 1;
+        }
+ 
+        if (arr[i] == arr[j] && i + 1 == j) {
+            return 2;
+        }
+ 
+        if (arr[i] == arr[j]) {
+            return longest_palindrome_string(arr, i + 1, j - 1) + 2;
+        }
+ 
+        return maximum(longest_palindrome_string(arr, i, j - 1), longest_palindrome_string(arr, i + 1, j));
+    }
+ 
+    public static void main(String[] args) {
+        String arr = "TREEISTREE";
+        int n = arr.length();
+        System.out.println("Logest palindrome string length is %d", longest_palindrome_string(arr.toCharArray(), 0, n - 1));
+    }
+}
