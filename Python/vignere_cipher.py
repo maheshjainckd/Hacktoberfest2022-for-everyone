@@ -34,6 +34,9 @@ try:
 
     # Input the plain text
     plain_text = input("Enter plain text: ").lower()
+    
+    if len(key) > len(plain_text):
+        raise Exception("Key length is greater than plain text length")
 
     # Initialise the cipher text
     cipher_text = ""
@@ -51,3 +54,4 @@ try:
 
 except:
     print("Please enter a valid key text, length smaller than that of plain text!!")
+    
