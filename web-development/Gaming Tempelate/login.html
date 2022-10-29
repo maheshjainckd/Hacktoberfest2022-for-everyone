@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/64d58efce2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="CSS/login.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <title>Login / Sign Up</title>
+    <link href="CSS/loader.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="main">
+        <div class="text">
+            Be A Part Of Endless Journey
+        </div>
+        <div class="title">
+            GAME ON
+        </div>
+        <div class="bar">
+            <div id="fill">
+            </div>
+        </div>
+    </div>
+    <div class="container">
+      <div class="forms-container">
+        <div class="signin-signup">
+          <form action="Main.html" class="sign-in-form" onsubmit="return validate()">
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" id="username" required/><br>
+              <label id="user" style="color: red; visibility: hidden;"><h5>Username Is Not Correct!</h5></label>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" id="password"/><br>
+              <label id="passw" style="color: red; visibility: hidden;"><h5>Password Is Not Correct!</h5></label>
+            </div>
+            <input type="submit" value="Login" class="btn solid"/>
+            <p class="social-text" style="color: aliceblue;">Or Sign in with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+          <form action="login.html" class="sign-up-form">
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" required/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" required/>
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" required/>
+            </div>
+            <a href="login.html"><input type="submit" class="btn" value="Sign up" /></a>
+            <p class="social-text" style="color: aliceblue;">Or Sign up with social platforms</p>
+            <div class="social-media">
+              <a href="#" class="social-icon">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-google"></i>
+              </a>
+              <a href="#" class="social-icon">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="panels-container">
+        <div class="panel left-panel">
+          <div class="content">
+            <h3>New here ?</h3>
+            <p>
+              Be a Gamer, not a player. We Get Achievements.
+            </p>
+            <button class="btn transparent" id="sign-up-btn">
+              Sign up
+            </button>
+          </div>
+          <img src="img/log.svg" class="image" alt="" />
+        </div>
+        <div class="panel right-panel">
+          <div class="content">
+            <h3>One of us ?</h3>
+            <p>
+              Continue Your Journey! Don't Fall Back.
+            </p>
+            <button class="btn transparent" id="sign-in-btn">
+              Sign in
+            </button>
+          </div>
+          <img src="img/register.svg" class="image" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+        var progess = 0;
+        document.onreadystatechange = function(){
+            if(document.readyState == "interactive")
+            {
+                var allElement = $("*");
+                var length = allElement.length;
+                for(var i=0;i<length;i++)
+                {
+                    set_element(allElement[i],length);
+                }
+            }
+        }
+        function set_element(element,totalElement)
+        {
+            var percentage = 1000 / totalElement;
+            if($(element).length==1)
+            {
+                $("#fill").animate({width:progess+percentage+"%"},2000,function()
+                {
+                    if(document.getElementById("fill").style.width=="100%");
+                    {
+                        $(".main").fadeOut(500);
+                    }
+                });
+                progess = progess + percentage;
+            }
+        }
+      </script>
+
+      <!--Login Validation-->
+      <script src="JS/logme.js"></script>
+    <script src="JS/login.js"></script>
+  </body>
+</html>
