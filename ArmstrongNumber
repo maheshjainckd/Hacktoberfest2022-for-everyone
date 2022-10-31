@@ -1,0 +1,18 @@
+import java.util.*;
+class ArmstrongNumber
+{
+public static void main(String args[])
+{
+Scanner s = new Scanner(System.in);
+int n = s.nextInt(), sum=0,num=n;
+while(n!=0)
+{
+sum = sum + (int) Math.pow(n%10,3);
+n/=10;
+}
+if(sum == num)
+System.out.println("Armstrong Number");
+else
+System.out.println("Not an Armstrong number");
+}}
+
