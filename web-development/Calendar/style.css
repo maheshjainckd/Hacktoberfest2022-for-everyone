@@ -24,7 +24,7 @@ body::before{
 .calender{
     position: relative;
     width: 300px;
-    background-color: white;
+    background-color: #2C3333;
     box-sizing: border-box;
     box-shadow: 0 5px 50px rgba(0, 0, 0, 0.5);
     overflow: hidden;
@@ -39,10 +39,9 @@ body::before{
     position: relative;
     height: 200px;
     padding: 20px;
-    color: white;
+    color: whitesmoke;
     background: #262626 url("bg.jpg") no-repeat center/ cover;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
-    
+    text-shadow: 2px 2px 4px rgba(5, 5, 5, 1);
 }
 
 .calender::before{
@@ -98,7 +97,8 @@ body::before{
     justify-content: center;
     height: 25px;
     font-weight: 600;
-    color: #262626;
+    font-family: sans-serif;
+    color: white;
 }
 
 .calender_day:nth-child(7){
@@ -110,7 +110,7 @@ body::before{
     align-items: center;
     justify-content: center;
     height: 25px;
-    color: #262626;
+    color: white;
 }
 
 
@@ -120,7 +120,7 @@ body::before{
 }
 
 .calender_num--current  {
-    background-color: #009688;
+    background-color: #79018C;
     color: #fff;
     font-weight: 700;
     cursor: pointer;
