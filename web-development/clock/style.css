@@ -1,0 +1,25 @@
+*{
+    margin: auto;
+}
+
+.lol{
+    position: relative;
+    background-color: grey;
+    top: 300px;
+    width: 900px;
+
+}
+#clock {
+    /* position: relative; */
+    font-size: 150px;
+    text-align: center;
+    color: rgb(233, 233, 194);
+    font-family: 'Quicksand', sans-serif;
+}
+
+#date{
+    font-size: 50px;
+    color: rgb(233, 233, 194);
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
