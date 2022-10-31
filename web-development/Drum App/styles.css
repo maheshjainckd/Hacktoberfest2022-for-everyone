@@ -1,49 +1,32 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background-image: radial-gradient( #fcf876, #ffcd3c, #cf7500);
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  font-family: "Indie Flower", cursive;
+  color: #b7472a;
+  font-size: 6rem;
+  text-decoration: underline;
+  text-shadow: 3px 0 3px #342b38;
+  margin: 10px 0;
 
 }
 
 footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+  color: #581c0c;
+  margin-bottom: 5%;
+  padding: 20px auto;
+}
+p {
+
+  font-size: 3rem;
+  font-family: "Indie Flower", cursive;
+  color: #b7472a;
+  padding-bottom: 50px;
 }
 
-.w {
-  background-image: url('images/tom4.png');
 
-}
-
-.a {
-  background-image: url('images/kick.png');
-}
-
-.s {
-  background-image: url('images/snare.png');
-} 
-
-.d {
-  background-image: url('images/tom1.png');
-}
-
-.j {
-  background-image: url('images/tom2.png');
-}
-
-.k {
-  background-image: url('images/tom3.png');
-}
-
-.l {
-  background-image: url('images/crash.png');
-}
 
 .set {
   margin: 10% auto;
@@ -63,20 +46,25 @@ footer {
   color: red;
 }
 
-.drum {
+.note {
   outline: none;
-  border: 10px solid #404B69;
+  border-radius: 100px;
+  border: 10px solid #cf7500;
   font-size: 5rem;
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
+  color: #581c0c;
   text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
   display: inline-block;
   width: 150px;
   height: 150px;
   text-align: center;
   margin: 10px;
-  background-color: white;
+  background-color: #ffe277;
+
+
+}
+.note:hover{
+   color: #d92027;
 }
