@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather-App</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/b1a8a7536f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <div class='bg-color-one text-colorT-one flex flex-col min-h-screen'>
+        {{>header}}
+        <main class='bg-color-two flex-grow flex w-full'>
+            <div
+                class="container bg-color-one shadow-xl border rounded mx-2 my-auto pb-8 px-4 sm:p-8 md:px-8 md:py-8 lg:px-8 mx-auto max-w-xs sm:max-w-lg lg:max-w-2xl">
+                <img id='weatherImage'
+                    class='bg-teal-100 rounded-full border shadow-2xl p-2 h-12 -mt-6 sm:h-16 sm:-mt-16 lg:h-20 lg:-mt-20 mx-auto'
+                    src='/img/weather.png' alt="weather icon">
+                <p id="description" class="text-center font-medium uppercase text-base sm:text-lg lg:text-xl mt-1">
+                    {{title}}</p>
+
+                <form class='mt-2 flex sm:mt-5 lg:mx-8 text-sm sm:text-base lg:text-lg' action="">
+                    <input id='locationInput'
+                        class='shadow-xl flex-grow h-8 xl:h-10 px-6 py-2 text-colorT-one bg-color-two rounded-full outline-none'
+                        type="text" placeholder="Location">
+                    <button
+                        class='-ml-8 px-4 xl:px-6 rounded full lowercase sm:uppercase text-colorT-one bg-color-two shadow-xl border-none rounded-full outline-none'
+                        placeholder="Location">Search</button>
+                </form>
+
+                <div
+                    class="bg-color-two rounded-lg lg:tracking-wider shadow-lg mt-5 p-1 sm:p-4 mx-auto sm:max-w-md lg:max-w-xl md:px-12 md:py-4 lg:mx-8 grid sm:grid-rows-1 grid-flow-col gap-4 md:gap-12">
+                    <p id="temperature"
+                        class="font-bold text-center inline-block self-center text-3xl lg:6xl row-span-1 col-span-1 sm:text-5xl">
+                        --°C</p>
+                    <div class="font-medium text-base sm:text-lg lg:text-xl leading-relaxed row-span-1 col-span-3">
+                        <p id="feelsLike">Feels Like: --°C</p>
+                        <p id="precip">Precip: -- % </p>
+                        <p id="wind">Wind Speed(Dir): -- --</p>
+                    </div>
+                </div>
+
+                <p id="lastUpdate" class="text-right mt-8 lg:mt-8 text-xs lg:text-base">Last Update: -----</p>
+            </div>
+        </main>
+        {{>footer}}
+    </div>
+    <script src="./js/app.js"></script>
+    <script src="./js/weather.js"></script>
+</body>
+
+</html>
