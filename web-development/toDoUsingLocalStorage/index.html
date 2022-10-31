@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>todo</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Arima:wght@300;500&family=Rubik+Moonrocks&display=swap" rel="stylesheet">
+	<link rel="icon" type="image/x-icon" href="fav_black.png">
+</head>
+<body onload="loader()">
+	<h1 id="heading">To-Do</h1>
+	<div id="take">
+		<label for="task">Enter Chore</label><br>
+		<input type="text" id="task" placeholder="Your Input"><br>
+		<label for="desc">Enter Description</label><br>
+		<textarea rows="4" id="desc" placeholder="Your Input"></textarea><br>
+		<button onclick="send()">Submit</button>
+	</div>
+	<section id="components"></section>
+	<script src="main.js"></script>
+</body>
+</html>
