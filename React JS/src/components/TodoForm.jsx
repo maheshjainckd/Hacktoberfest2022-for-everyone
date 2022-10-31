@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 import { GlobalContext } from '../context';
 // import {useParams} from 'react-router-dom'
 // // import TodoDetailCard from '../components/TodoDetailCard';
@@ -74,7 +75,7 @@ const TodoForm = () => {
                             className='form-check-input' />
                             <label htmlFor="done" className='form-check-label'>done</label>
                         </div>
-                        <button type="submit" className='btn btn-primary'>Create</button>
+                        <Link to="/"><button type="submit" className='btn btn-primary'>Create</button></Link>
                     </form>
                 </div>
             </div>

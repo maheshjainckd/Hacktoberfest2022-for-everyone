@@ -14,7 +14,7 @@ const TodoDetailCard = ({ todo }) => {
     const navigate = useNavigate();
 
     const deleteHandler = (e) => {
-        const todo = data.find(element => element.id === Number(todo.id));
+        todo = data.find(element => element.id === Number(todo.id));
         console.log(todo)
         if (todo) {
             setData(data.filter(element => element.id !== Number(todo.id)))
