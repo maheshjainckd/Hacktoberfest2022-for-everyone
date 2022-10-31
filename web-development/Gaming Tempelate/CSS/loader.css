@@ -1,0 +1,122 @@
+
+
+@font-face {
+    font-family: Gloss And Bloom;
+    src: url(../Fonts/Gloss_And_Bloom.ttf);
+}
+.main{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(80deg, #110e1f, #1b1730);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 9999;
+}
+.text{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: 100% 100%;
+    background-position: center;
+    font-family:Gloss And Bloom;
+    font-size: 80px;
+    text-align: center;
+    line-height: 650px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-5deg);
+    color: #d2006b;
+    -webkit-background-clip: text;
+    pointer-events: none;
+    animation: anim1 1s infinite,anim2 10s forwards;
+
+}
+
+@keyframes anim1{
+    0%{background-image: url('https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    10%{background-image: url('https://images.pexels.com/photos/735911/pexels-photo-735911.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    20%{background-image: url('https://images.pexels.com/photos/411207/pexels-photo-411207.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    30%{background-image: url('https://images.pexels.com/photos/3829227/pexels-photo-3829227.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    40%{background-image: url('https://images.pexels.com/photos/1038916/pexels-photo-1038916.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    50%{background-image: url('https://images.pexels.com/photos/442576/pexels-photo-442576.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    60%{background-image: url('https://images.pexels.com/photos/1293261/pexels-photo-1293261.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    70%{background-image: url('https://images.pexels.com/photos/1337247/pexels-photo-1337247.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    80%{background-image: url('https://images.pexels.com/photos/4144152/pexels-photo-4144152.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    90%{background-image: url('https://images.pexels.com/photos/2708981/pexels-photo-2708981.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+    100%{background-image: url('https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');}
+}
+@keyframes anim2{
+    from{color:#d2006b;}
+    to{color: transparent;}
+}
+.title{
+    font-family: monospace;
+    font-size: 12px;
+    color: white;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.bar{
+    width: 300px;
+    height: 2px;
+    background-color: #282246;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+}
+#fill{
+    width: 0%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+@media (max-width: 700px){
+    .text{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/4835419/pexels-photo-4835419.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500');
+    background-size: 100% 100%;
+    background-position: center;
+    font-family:Gloss And Bloom;
+    font-size: 20px;
+    text-align: center;
+    line-height: 650px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%) rotate(-5deg);
+    color: #d2006b;
+    -webkit-background-clip: text;
+    pointer-events: none;
+    animation: anim1 1s infinite,anim2 10s forwards;
+    }
+    .title{
+    font-family: monospace;
+    font-size: 6px;
+    color: white;
+    letter-spacing: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    }
+    .bar{
+    width: 50px;
+    height: 2px;
+    background-color: #282246;
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 999;
+    }
+}

@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles.css">
     <title>Document</title>
 </head>
+
 <body>
-    <select name="" id="gender">
-        <option value="">Select GENDER</option>
-        <option value="Male">Male</option>
-        <option value="Female">Female</option>
-    </select>
-    <input type="number" placeholder="Enter Yout age">
-    <button onclick="Check()">Check</button>
+    <div class="mainContainer">
+        <select name="" id="gender">
+            <option style="font-size: 24;" value=""><span class="options">GENDER</span> </option>
+            <option style="font-size: 24;" value="Male"><span class="options">Male</span></option>
+            <option style="font-size: 24;" value="Female"><span class="options">Female</span></option>
+        </select>
+        <input class="input" type="number" placeholder="Enter Yout age">
+
+        <button style="font-size: 24;" onclick="Check()">Check</button>
+    </div>
 </body>
 <script>
-    function Check(){
-        var g=document.querySelector('select').value
-        var age=document.querySelector("input").value
-        
+    function Check() {
+        var g = document.querySelector('select').value
+        var age = document.querySelector("input").value
+
         var maleCondition = g === 'Male' && age > 21
-        var femaleCondition = g === 'Female' && age > 18 
-        
-        if(maleCondition || femaleCondition){
+        var femaleCondition = g === 'Female' && age > 18
+
+        if (maleCondition || femaleCondition) {
             alert('Congratulation')
-        }else {
+        } else {
             alert("Focus On your  growth")
         }
     }
 </script>
+
 </html>

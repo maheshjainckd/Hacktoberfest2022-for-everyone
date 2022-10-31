@@ -1,0 +1,23 @@
+.bar {
+    background-color: rgba(46, 46, 46, 0.2) ;
+}
+
+.logo-link {
+    color: black;
+    font-size: 2vw;
+    text-decoration: none;
+}
+
+.logo {
+    border: solid 2px rgb(209, 209, 209);
+    border-radius: 20px;
+    overflow: hidden;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+@media only screen and (max-width: 992px) {
+    .logo {
+        width: 100%
+    }
+}

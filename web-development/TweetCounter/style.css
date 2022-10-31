@@ -1,0 +1,44 @@
+body{
+    font-family: 'Pacifico', cursive;
+}
+
+.header, .footer{
+    background-color: #143d3a;
+    color: white;
+    padding: 30px;
+}
+
+.chars{
+    margin: 40px auto 10px auto;
+    width: 50%;
+}
+
+.tweet{
+    background-color: #f2f2f2;
+    margin: 20px auto 2px auto;
+    border-radius: 5px;
+    width: 49%;
+    padding: 20px;
+}
+
+.con{
+    width: 50%;
+}
+
+.buttons{
+    float: right;
+}
+
+.mod{
+    word-wrap: break-word;
+    color: #143d3a;
+
+}
+
+.copyButton{
+    background-color: #143d3a;
+}
+
+
+
+

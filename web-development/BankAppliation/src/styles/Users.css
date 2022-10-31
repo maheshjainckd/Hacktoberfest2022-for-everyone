@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.users {
+    min-height: 100vh;
+    background: rgb(54, 54, 54);
+    overflow-x: scroll;
+}
+
+.tbl {
+    width: 100%;
+    margin: auto;
+    background: transparent;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.tbl th {
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.tbl td {
+    text-align: center;
+}
+
+.tbl tr {
+    border: solid 0.5px rgb(109, 109, 109);
+}
+
+.tbl tr:hover {
+    background-color: aliceblue;
+    color: black;
+}
+
+.btnnn {
+    border: none;
+    box-shadow: none;
+    padding: 1px 10px;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .tbl {
+        width: auto;
+      
+    }
+}

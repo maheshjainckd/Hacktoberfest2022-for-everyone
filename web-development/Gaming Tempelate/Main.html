@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Game India Template</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/main.css" rel="Stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+        <link href="CSS/loader.css" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+
+    <body>
+        <!--Loader-->
+        <div class="main">
+            <div class="text">
+                I Am A Gamer
+            </div>
+            <div class="title">
+                GAME OVER
+            </div>
+            <div class="bar">
+                <div id="fill">
+                </div>
+            </div>
+        </div>
+         <!--main-->
+        <header>
+            <div class="flex">
+                <div class="logo">
+                    <a href="#"><img src="https://onclickwebdesign.com/wp-content/uploads/game_warrior_logo.png" alt="Game Warrior Logo" /></a>
+                </div>
+                <nav>
+                    <button id="nav-toggle" class="hamburger-menu">
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                        <span class="strip"></span>
+                    </button>
+                    <ul id="nav-menu-container">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#game-types-boxes">Games</a></li>
+                        <li><a href="#recent-games">Walkthrough</a></li>
+                        <li><a href="#recent-reviews">Reviews</a></li>
+                        <li><a href="#tournaments">Tournament</a></li>
+                        <li><a href="#"><i class="fab fa-youtube"></i><span> Youtube</span></a></li>
+                    </ul>
+                </nav>
+                <a href="login.html" id="login-register-button">Login</a>
+            </div>
+        </header>
+
+        <!--<div class="social">
+            <ul>
+                <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i><span>Youtube</span></a></li>
+            </ul>
+        </div>-->
+        <main>
+            <section id="hero-image">
+                <div class="hero-marketing-text">
+                    <h1>The Best <span>Games</span> Out There</h1>
+                    <h3 style="color: rgb(175, 198, 219);">There Are Infinite Games, if you ask me</h3>
+                    <ol type="1" style="color: aqua;">
+                        <li>The Witcher 3 : Wild Hunt</li>
+                        <li>Ghostrunner</li>
+                        <li>Control</li>
+                        <li>World of Worldcraft: Shadowlands</li>
+                        <li>Hitman 3</li>
+                    </ol>
+                    <button>Read More</button>
+                </div>
+            </section>
+
+            <section id="latest-news">
+                <div class="flex">
+                    <h5>Latest News</h5>
+                    <div id="latest-news-container">
+                        <div class="latest-news-item">
+                            <span class="badge new">New</span>
+                            <span class="latest-news-text">Best Upcoming Games.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--Game Types-->
+            <section id="game-types-boxes">
+                <div class="flex">
+                    <div class="box new" data-aos="fade-up"> 
+                        <div class="shade"></div>
+                        <span class="badge new">New</span>
+                        <div class="contents">
+                            <h4>strategy Games</h4>
+                            <p>A strategy game or strategic game is a game in which the players' uncoerced 
+                                and often autonomous, decision-making skills have a high significance in determining the outcome.
+                                Almost all strategy games require internal decision tree-style thinking 
+                                and typically very high situational awareness</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box strategy" data-aos="fade-down">
+                        <div class="shade"></div>
+                        <span class="badge strategy">New</span>
+                        <div class="contents">
+                            <h4>Action Games</h4>
+                            <p>Character action games are a broad category of action games, referring to a variety of games that are driven by the physical actions of player characters.</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box rpg" data-aos="fade-up">
+                        <div class="shade"></div>
+                        <span class="badge rpg">New</span>
+                        <div class="contents">
+                            <h4>Shooting Games</h4>
+                            <p>Shooting games can be of first person or thrid person preview. Some of best shooting games are:
+                                <ol type="1">
+                                    <li>Apex Legends</li>
+                                    <li>Call of Duty: Warzone</li>
+                                    <li>Valorant</li>
+                                </ol>
+                            </p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box racing" data-aos="fade-down">
+                        <div class="shade"></div>
+                        <span class="badge racing">New</span>
+                        <div class="contents">
+                            <h4>Racing Games</h4>
+                            <p>Racing video games are a video game genre in which the player participates in a racing competition. They may be based on anything from real-world racing leagues to fantastical settings. Racing games may also fall under the category of sports games.</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--Walkthroughs-->
+            <section id="recent-games">
+                <h1 data-aos="zoom-in" data-aos-easing="linear" data-aos-offset="120" >Walkthrough Guides</h1>
+                <div class="flex">
+                    <div class="box" data-aos="fade-right">
+                        <span class="badge new">New</span>
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/recent_games_1.jpg" />
+                        <div class="box-lower-section">
+                            <h4>All New 2020 Games</h4>
+                            <p style="color: black;">This Contain All the new released games guides to follow Through.</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-down">
+                        <span class="badge racing">Racing</span>
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/recent_games_2.jpg" />
+                        <div class="box-lower-section">
+                            <h4>Need For Speed</h4>
+                            <p style="color: black;">Contains All Need for Speed series Guides to get the best out of the games and intense gameplay</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="fade-left">
+                        <span class="badge adventure">Adventure</span>
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/recent_games_3.jpg" />
+                        <div class="box-lower-section">
+                            <h4>Best Action, RPG list</h4>
+                            <p style="color: black;">Contain Darksiders Series, God Of War Series and Devil May Cry Series Guides.</p>
+                            <a href="#" class="comments">3 Comments</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--Tournaments-->
+            <section id="tournaments">
+                <div class="flex">
+                    <span class="badge tournaments" data-aos="zoom-in-right" data-aos-easing="linear" data-aos-offset="100">Tournaments</span>
+                    <div class="box" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-offset="200">
+                        <span class="badge premium-tournament">Premium Tournament</span>
+                        <div class="tournaments-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/tournaments_1.jpg" />
+                        </div>
+                        <div class="tournaments-content" >
+                            <h3>Starcraft 2</h3>
+                            <div><label>Tournament Begins:</label> <strong>June 20, 2019</strong></div>
+                            <div><label>Tournament Ends:</label> <strong>July 01, 2019</strong></div>
+                            <div><label>Participants:</label> <strong>10 teams</strong></div>
+                            <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                            <div><label class="prizes">Prizes:</label> <label>1st place $2000, 2nd place: $1000, 3rd place: $500</label></div>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in-up" data-aos-easing="linear" data-aos-offset="200">
+                        <span class="badge premium-tournament">Premium Tournament</span>
+                        <div class="tournaments-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/tournaments_2.jpg" />
+                        </div>
+                        <div class="tournaments-content">
+                            <h3>World Of Warcraft</h3>
+                            <div><label>Tournament Begins:</label> <strong>June 20, 2019</strong></div>
+                            <div><label>Tournament Ends:</label> <strong>July 01, 2019</strong></div>
+                            <div><label>Participants:</label> <strong>10 teams</strong></div>
+                            <div><label>Tournament Organizer:</label> <strong>Admin</strong></div>
+                            <div><label class="prizes">Prizes:</label> <label>1st place $2000, 2nd place: $1000, 3rd place: $500</label></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--Popular-->
+            <section id="recent-reviews">
+                <h1 style="color: whitesmoke;" data-aos="zoom-in" data-aos-easing="linear" data-aos-offset="120">Popular Games</h1>
+                <div class="flex">
+                    <div class="box" data-aos="zoom-in-right">
+                        <span class="rating-badge gold">9.3</span>
+                        <div class="recent-reviews-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/recent_reviews_1.jpg" />
+                        </div>
+                        <div>
+                            <h4 style="color: whitesmoke;">Assasin's Creed</h4>
+                            <p style="color: whitesmoke;">Assassin's Creed is an action-adventure video game developed by Ubisoft Montreal and published by Ubisoft. It is the first installment in the Assassin's Creed series. The game was released for PlayStation 3 and Xbox 360 in November 2007 and was made available on Microsoft Windows in April 2008..</p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in-down">
+                        <span class="rating-badge purple">9.5</span>
+                        <div class="recent-reviews-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/recent_reviews_2.jpg" />
+                        </div>
+                        <div>
+                            <h4 style="color: whitesmoke;">Doom</h4>
+                            <p style="color: whitesmoke;">Doom (stylized as DooM, and later DOOM) is a video game series and media franchise created by John Carmack, John Romero, Adrian Carmack, Kevin Cloud, and Tom Hall.The series focuses on the exploits of an unnamed space marine operating under the auspices of the Union Aerospace Corporation (UAC), who fights hordes of demons and the undead.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in-up">
+                        <span class="rating-badge green">9.1</span>
+                        <div class="recent-reviews-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/recent_reviews_3.jpg" />
+                        </div>
+                        <div>
+                            <h4 style="color: whitesmoke;">Overwatch</h4>
+                            <p style="color: whitesmoke">Overwatch is Blizzard's fourth major franchise and came about following the 2014 cancellation of a massively multiplayer online role-playing game, Titan. A portion of the Titan team were inspired by the success of team-based first-person shooters like Team Fortress 2 and the popularity of multiplayer online battle arena games, creating a hero-based shooter which emphasized teamwork.</p>
+                        </div>
+                    </div>
+
+                    <div class="box" data-aos="zoom-in-left">
+                        <span class="rating-badge violet">9.7</span>
+                        <div class="recent-reviews-image">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/recent_reviews_4.jpg" />
+                        </div>
+                        <div>
+                            <h4 style="color: whitesmoke;">GTA</h4>
+                            <p style="color: whitesmoke;">GTA 5 is one of the best titles developed by Rockstar Games. From crazy missions to a thrilling open-world, players cannot possibly get bored of GTA 5 because of a huge range of activities to engage with.
+
+                                Unfortunately, GTA 5 cannot run on mobile devices. Nonetheless, players can explore the following games that are similar to the beloved GTA title.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+<!--Comments-->
+            <section id="posts-comments">
+                <div class="flex">
+                    <div class="game-warrior">
+                        <img src="https://onclickwebdesign.com/wp-content/uploads/footer_logo.png" />
+                        <p>Start a Gamer Journey!</p>
+                        <img class="footer-graphic" src="https://onclickwebdesign.com/wp-content/uploads/sword_lady_footer.png" />
+                    </div>
+
+                    <div class="posts-comments-box">
+                        <h3>Latest Posts</h3>
+                        <div class="post-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/latest_posts_1.jpg" />
+                            <div>
+                                <h5>June 21, 2019</h5>
+                                <p>All New Shootung List Has been Added</p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/latest_posts_2.jpg" />
+                            <div>
+                                <h5>June 21, 2019</h5>
+                                <p>Racing Games Guides Are Added.</p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/latest_posts_3.jpg" />
+                            <div>
+                                <h5>June 21, 2019</h5>
+                                <p>Check Out New Upcoming Games.</p>
+                                <small>By: Admin</small>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="posts-comments-box">
+                        <h3>Top Comments</h3>
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_1.jpg" />
+                            <div>
+                                <p><span class="author">Bailey</span> <span>on</span> Assassin Creeds</p>
+                                <h5>June 21, 2019</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_2.jpg" />
+                            <div>
+                                <p><span class="author">Kex</span> <span>on</span> Racing Games</p>
+                                <h5>June 21, 2019</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_3.jpg" />
+                            <div>
+                                <p><span class="author">Miller</span> <span>on</span> Overwatch</p>
+                                <h5>June 21, 2019</h5>
+                            </div>
+                        </div>
+
+                        <div class="comments-item">
+                            <img src="https://onclickwebdesign.com/wp-content/uploads/top_comments_4.jpg" />
+                            <div>
+                                <p><span class="author">James Smith</span> <span>on</span> GTA</p>
+                                <h5>June 21, 2019</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <div class="flex">
+                <ul>
+                    <li>
+                        <a href="#">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#game-types-boxes">Games</a>
+                    </li>
+
+                    <li>
+                        <a href="#recent-games">Walkthrough</a>
+                    </li>
+
+                    <li>
+                        <a href="#recent-reviews">Reviews</a>
+                    </li>
+
+                    <li>
+                        <a href="#tournaments">Tournament</a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+        <a href="#" class="gotop"><i class="fas fa-arrow-up"></i></a>
+        <div id="progessbar"></div>
+<!------------------------------------SCRIPTS------------------------------------------------------------------------->
+        <script>
+            document.getElementById('nav-toggle').addEventListener('click', function () {
+                let navMenu = document.getElementById('nav-menu-container');
+                navMenu.style.display = navMenu.offsetParent === null ? 'block' : 'none';
+            });
+        </script>
+        <!--Scroll bar JS-->
+        <script type="text/javascript">
+            $(window).scroll(function(){
+                var scroll = $(window).scrollTop(),
+                dh =$(document).height();
+                wh =$(window).height();
+                scrollPercent= (scroll / (dh - wh)) * 100;
+                $('#progessbar').css('height', scrollPercent + '%');
+        });
+        </script>
+        <!--Loader Js-->
+        <script type="text/javascript">
+            var progess = 0;
+            document.onreadystatechange = function(){
+                if(document.readyState == "interactive")
+                {
+                    var allElement = $("*");
+                    var length = allElement.length;
+                    for(var i=0;i<length;i++)
+                    {
+                        set_element(allElement[i],length);
+                    }
+                }
+            }
+            function set_element(element,totalElement)
+            {
+                var percentage = 23333 / totalElement;
+                if($(element).length==1)
+                {
+                    $("#fill").animate({width:progess+percentage+"%"},4000,function()
+                    {
+                        if(document.getElementById("fill").style.width=="100%");
+                        {
+                            $(".main").fadeOut(1000);
+                        }
+                    });
+                    progess = progess + percentage;
+                }
+            }
+            </script>
+            <!-- AOS Effect using JS-->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init({
+                  offset: 300,
+                  duration: 1000,
+              });
+            </script>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int longestConsecutive(vector<int>& a) {
+    int n = a.size();
+    if(n == 0) return 0;
+    sort(a.begin() , a.end());
+    unordered_map<int , int> mp;
+    mp[a[0]] = 1;
+    for(int i=1 ; i<n ; i++) {
+        mp[a[i]] = max(mp[a[i]] , 1);
+        mp[a[i]] = max(mp[a[i]] , mp[a[i] - 1] + 1);
+    }
+    int ans = 1;
+    for(auto p : mp) {
+        ans = max(ans , p.second);
+    }
+    return ans;
+}
+int main() {
+    
+    vector<int> a{2 , 4 , 1 , 6 , 2};
+
+    cout << "longest Consecutive Sequence in this array is : " << longestConsecutive(a) << endl;
+
+    return 0;
+}

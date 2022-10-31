@@ -1,0 +1,53 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*----------------------------------------------------------------- */
+
+
+
+.history {
+    min-height: 100vh;
+    background: rgb(54, 54, 54);
+    overflow-x: scroll;
+    scrollbar-width: thin;
+    scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+
+.history-header {
+    color: aliceblue;
+    text-align: center;
+}
+
+.tble {
+    min-width: 100%;
+    margin: auto;
+    background: transparent;
+    color: aliceblue;
+    font-weight: bolder;
+}
+
+.tble th {
+    text-transform: capitalize;
+    font-size: 1.3rem;
+    padding-left: 1%;
+}
+
+.tble td {
+    padding-top: 0.7%;
+    padding-left: 1%;
+    text-transform: capitalize;
+    border-right: 1px solid rgb(80, 80, 80);
+}
+
+.tble tr {
+    border: solid 0.5px rgb(109, 109, 109);
+}
+
+@media only screen and (max-width: 600px) {
+    td {
+        overflow: hidden;
+    }
+}

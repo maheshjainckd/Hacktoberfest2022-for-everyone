@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <style>
+        .boxS
+        {
+            width: 100vw;
+            /* height: 100vh; */
+            background-color: rgb(194, 194, 194);
+            border-radius: 15px;
+            padding-bottom:20px ;
+            margin-bottom: 20px;
+
+        }
+        .box
+        {
+            min-width:400px;
+            display: flex;
+            justify-content: center;
+            margin: 10px;
+        }
+        .box>select
+        {
+            margin: 5px;
+            box-shadow: 4px 4px 4px grey;
+            min-width: 150px;
+            border: 2px solid black;
+            border-radius: 10px;
+            min-height: 50px;
+            font-size: 1.5rem;
+        }
+        .box>input
+        {
+            min-width: 150px;
+            border: 2px solid black;
+            border-radius: 10px;
+            min-height: 50px;
+            font-size: 1.5rem;
+        }
+        h1
+        {
+          margin: auto;
+          text-align: center;
+          font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        button
+        {
+            
+            width: 100px;
+            height: 50px;
+            border-radius: 10px;
+            border: 2px solid black;
+            font-size: 1.5rem;
+            margin: auto;
+            background-color: blueviolet;
+            color: white;
+        }
+        button:hover
+        {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    
+
+  <div class="boxS">
+    <header><h1>Length Convertor</h1></header>
+    <div class="box1 box">
+        <select name="unit1" id="unit1">
+            <option value="meter" selected onclick="unitConvertor()">meter</option>
+            <option value="centimeter" onclick="unitConvertor()">centimeter</option>
+            <option value="inch" onclick="unitConvertor()">inch</option>
+            <option value="feet" onclick="unitConvertor()">feet</option>
+            <option value="kilometer" onclick="unitConvertor()">kilometer</option>
+        </select>
+        <input type="text" id="value1">
+    </div>
+   <div class="box2 box">
+    <select name="unit2" id="unit2">
+        <option value="meter"  onclick="unitConvertor()">meter</option>
+        <option value="centimeter" selected onclick="unitConvertor()">centimeter</option>
+        <option value="inch" onclick="unitConvertor()">inch</option>
+        <option value="feet" onclick="unitConvertor()">feet</option>
+        <option value="kilometer" onclick="unitConvertor()">kilometer</option>
+    </select>
+    <input type="text" id="value2">
+</div>
+</div>
+
+<button onclick="unitConvertor()">Convert</button>
+<!-- <button onclick="unitConvertor()">Click</button> -->
+<script>
+ 
+  let fac1=1,fac2=1;
+  let value1 = document.getElementById("value1");
+  let value2 = document.getElementById("value2");
+  value2.addEventListener("input",unitConvertor);
+  value1.addEventListener("input",unitConvertor);
+  value1.value=1;
+  value2.value=1;
+
+  function unitConvertor()
+  {
+
+    let result;
+    let unit1 = document.getElementById("unit1").value;
+    let unit2 = document.getElementById("unit2").value;
+    let data = document.getElementById("value1").value;
+    
+    if((unit1=='inch' || unit1=='feet') && (unit2=='inch' || unit2=='feet'))
+    {
+     if(unit1=='inch')
+     {
+        fac1=12;
+     }
+     else
+     {
+        fac1=1;
+     }
+
+     if(unit2=='feet')
+     {
+        fac2=1;
+     }
+     else
+     {
+        fac2=12;
+     }
+      
+    }
+    else
+    {      
+        if(unit1=='meter')
+        {
+            fac1 = 1;
+        }
+        if(unit1=="inch")
+        {
+            fac1=39.3701
+        }
+    if(unit1=='feet')
+    {
+        fac1=3.28084
+    }
+    if(unit2=='centimeter')
+    {
+        fac2 = 100;
+    }
+    if(unit2=='inch')
+    {
+        fac2=39.3701;
+    }
+    if(unit2=='feet')
+    {
+        fac2=3.28084;
+    }
+    if(unit1=='kilometer')
+    {
+        fac1=1000;
+    }  if(unit2=='kilometer')
+    {
+        fac2=1000;
+    }
+}
+    result = data*(fac2 / fac1);
+    
+    value2.value = result;
+ 
+}
+unitConvertor();
+
+
+</script>
+</body>
+</html>

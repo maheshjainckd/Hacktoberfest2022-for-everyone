@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet"
+  href="https://fonts.googleapis.com/css?family=poppins">
+</head>
+
+<body id="overlay">
+  <div class="text">
+    <p> 
+    <h1 >Learn to code by <br> watching others</h1>
+  </p>
+  </div>
+    <p class="note">
+      see how exprienced developers solve problems in real-time.<br>
+      watching scripted tutorials is great, but understanding how<br>
+      developers think is invaluable.
+    </p>
+  <form name = "registerationform" onsubmit="return validateForm()">
+    <div>
+      <button class="try-btn">
+        <b>Try it free 7 days</b> then $20/mo. thereafter
+      </button>
+    </div>
+    <div class="fm-box">
+      <input type="text" class="input-box" placeholder="First Name" id="firstname" name="firstname" required><br>
+      <input type="text" class="input-box" placeholder="Last Name" name="lastname" required><br>
+      <input type="email" class="input-box" placeholder="Email Address" id="email" name="email" required><br>
+      <input type="password" class="input-box" placeholder="Password" name="password" required><br>
+      <button class="claim-btn" type="submit" id="submit" onclick="validation()">CLAIM YOUR FREE TRIAL</button><br>
+      <p class="dwn-p">
+      By clicking the button you are agreeing to our <a href="T/s.com">Terms and Services</a>
+    </p>
+      
+    </div>
+    
+  </form>
+
+  <script src="script.js">
+    required
+validationErrors={{
+  isDefaultRequiredValue: 'Field is required'
+}}
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="change">
+    <script>
+      
+
+let number1 = parseFloat(prompt('Enter first number: '));
+let number2 = parseFloat(prompt('Enter second number: '));
+let operator = prompt('Enter operator ( either +, -, * or / ): ');
+
+let answer;
+
+
+if (operator == '+') {
+    answer = number1 + number2;
+}
+else if (operator == '-') {
+    answer = number1 - number2;
+}
+else if (operator == '*') {
+    answer = number1 * number2;
+}
+else {
+  answer = number1 / number2;
+}
+
+
+alert(`${number1} ${operator} ${number2} = ${answer}`);
+    </script>
+    
+</body>
+</html>

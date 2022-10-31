@@ -1,5 +1,5 @@
 node_modules
-
+.DS_Store
 .dart_tool/
 .packages
 build/
