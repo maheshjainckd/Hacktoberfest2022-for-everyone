@@ -1,0 +1,16 @@
+class Solution {
+    public int Kadanes_Algo(int[] nums) {
+        int i,sum,su;
+        sum=0;su=nums[0];
+        for(i=0;i<nums.length;i++){
+            if(sum<0){
+                sum=nums[i];
+            }
+            else{
+                sum+=nums[i];
+            }
+            su=Math.max(sum,su);
+        }
+        return su;
+    }
+}
