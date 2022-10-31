@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    background: #16a085;
+  }
+  .hide {
+    display: none;
+  }
+  .car {
+    background: url("https://www.clipartmax.com/png/small/17-177077_clipart-car-birds-eye-view-bird-s-clip-art-library-birds-eye.png");
+    background-position: center;
+    background-size: 67px 76px;
+    border-radius: 10px;
+    width: 50px;
+    height: 70px;
+    position: absolute;
+    left: 50px;
+    bottom: 120px;
+  }
+  .enemy {
+    background: url("https://toppng.com/uploads/preview/car-png-top-view-png-blue-car-top-view-11562875896ptd1ytjtjv.png");
+    background-position: center;
+    background-size: 130px 76px;
+    border-radius: 10px;
+    width: 50px;
+    height: 70px;
+    z-index: 3;
+    position: absolute;
+    left: 50px;
+    bottom: 120px;
+  }
+  .gameArea {
+    height: 100vh;
+    overflow: hidden;
+    width: 400px;
+    margin: auto;
+    background: #2d3436;
+    position: relative;
+  }
+  .lines {
+    width: 10px;
+    height: 100px;
+    background: white;
+    position: absolute;
+    margin-left: 195px;
+  }
+  .startScreen {
+    z-index: 5;
+    position: absolute;
+    background: #52be80;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin: auto;
+    width: 50%;
+    cursor: pointer;
+    font-family: carfont;
+    letter-spacing: 5;
+    line-height: 30px;
+    font-size: 20px;
+    word-spacing: 3;
+    text-transform: uppercase;
+    box-shadow: 0 5px 5px #a3e4d7;
+  }
+  .score {
+    position: absolute;
+    top: 15px;
+    left: 40px;
+    background: green;
+    widows: 300px;
+    width: 150px;
+    height: 25px;
+    text-align: center;
+    color: white;
+    font-size: 1.5em;
+    font-size: 1.5em;
+    font-family: fantasy;
+    box-shadow: 0 5px 5px #777;
+  }
