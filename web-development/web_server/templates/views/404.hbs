@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 Page Not Found</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/b1a8a7536f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class='bg-color-one text-colorT-one flex flex-col min-h-screen'>
+        {{>header}}
+        <main class='bg-color-two flex-grow flex w-full'>
+            <div
+                class="container bg-color-one shadow-xl border rounded my-auto pb-8 px-4 sm:p-8 md:px-8 md:py-8 lg:px-8 mx-auto max-w-xs sm:max-w-lg lg:max-w-2xl">
+                <h1 class="text-center text-xl sm:text-2xl lg:text-3xl font-semibold">
+                    {{errorTxt}}
+                </h1>
+                <img src="/img/lost.jpg" alt="bitmoji of girl looking for the webpage with a magnifying glass"
+                    class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-contain mt-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16">
+            </div>
+        </main>
+        {{>footer}}
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

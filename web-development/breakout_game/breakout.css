@@ -1,0 +1,32 @@
+body{
+    font-family: 'Press Start 2P', cursive;
+    background-color:rgb(8, 6, 37);
+    text-align: center;
+    color:rgb(155, 226, 41) ;
+}
+canvas{
+    background-color: rgb(61, 91, 117);
+}
+h1{
+    position: relative;
+    top: 35px;
+    right: 180px;
+    font-size: 35px;
+    color: rgb(196, 219, 159);
+}
+.btn{
+    font-family: 'Press Start 2P', cursive;
+    height: 50px;
+    width: 150px;
+    position: relative;
+     top: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: rgb(228, 138, 54);
+}
+#score{
+    position: relative;
+    font-size: 30px;
+    bottom: 20px;
+    left: 280px;
+}

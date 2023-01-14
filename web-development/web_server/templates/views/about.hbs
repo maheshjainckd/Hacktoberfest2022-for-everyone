@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="icon" href="/img/weather.png">
+    <link rel="stylesheet" href="/css/style.css" />
+    <script src="https://kit.fontawesome.com/b1a8a7536f.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <div class='bg-color-one text-colorT-one flex flex-col min-h-screen'>
+        {{>header}}
+        <main class='bg-color-two flex-grow flex'>
+            <div class="mx-4 sm:mx-8 lg:mx-16 my-2 sm:my-6 lg:my-8 ">
+                <h1 class="text-center uppercase text-xl sm:text-2xl lg:text-3xl font-semibold">{{title}}</h1>
+                <img class="h-40 sm:h-48 md:h-56 lg:h-64 w-full object-contain mt-4 mb-6 sm:mb-8 md:mb-12 lg:mb-16"
+                    src="/img/my_pic.jpg" alt="Profile picture" />
+                <div class="lg:text-xl leading-relaxed lg:leading-loose">
+                    <p>My name is Bikas Kumar Behera. I am a junior level full-stack web developer based in Bhubaneswar, Odisha, India</p>
+                    <br>
+                    <p>This project was completed as part of Udemy's The Complete Node.js
+                        Developer Course with Andrew Mead. I followed the course and expanded on it by
+                        <span class="font-medium">displaying additional information</span> from the APIs, adding a <span
+                            class="font-medium">dark-mode</span>, and designing the page using <span
+                            class="font-medium">tailwindCSS</span>.
+                    </p>
+                </div>
+            </div>
+        </main>
+        {{>footer}}
+    </div>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>

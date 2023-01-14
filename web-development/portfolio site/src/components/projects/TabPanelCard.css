@@ -1,0 +1,17 @@
+.card {
+    background-color: #171717;
+}
+
+.btns{
+    border-radius: 10px;
+    padding: 0.8rem;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    transition-duration: 0.6s;
+}
+
+.btns:hover {
+    color: #171717;
+    background-color: whitesmoke;
+    border: 1px solid #171717;
+}

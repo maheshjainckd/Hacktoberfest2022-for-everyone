@@ -32,6 +32,31 @@ class LongestValid {
                     right = 0;
                 }
             }
+            for (int i=s.length()-1; i>=0; --i){
+
+            if (s.charAt(i) == ')'){
+
+                right++;
+
+            }
+
+            else{
+
+                left++;
+
+                if (left == right)
+
+                    maxLen = Math.max(maxLen,2*left);
+
+                else if (left > right){
+
+                    left = 0;
+
+                    right = 0;
+
+                }
+
+            }
         }
         return maxLen;
     }

@@ -1,9 +1,13 @@
-#include<stdio.h>  
- int main()    
+#include<stdio.h>
+void main()
+{
+ printf("enter the number=");    
+scanf("%d",&n);
+ armstrong(n);
+}
+ void armstrong(int n)    
 {    
-int n,r,sum=0,temp;    
-printf("enter the number=");    
-scanf("%d",&n);    
+int r,sum=0,temp;        
 temp=n;    
 while(n>0)    
 {    

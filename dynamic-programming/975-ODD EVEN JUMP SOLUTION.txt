@@ -1,0 +1,91 @@
+class Solution {
+public:
+    int fun(vector<int>&a,vector<int>&b,int i,int k,vector<vector<int>>&dp)
+    {
+        if(i==a.size()-1)return 1;
+        if(dp[i][k]!=-1)return dp[i][k];
+        long int res=0;
+        if(k&1&&a[i]!=-1)res|=fun(a,b,a[i],(k+1)%2,dp);
+        if(!(k&1)&&b[i]!=-1)res|=fun(a,b,b[i],(k+1)%2,dp);
+        
+        return dp[i][k]=res;
+    }
+    
+    
+    int oddEvenJumps(vector<int>& arr1) {
+        int n=arr1.size();
+         set<pair<int,int>>s;vector<pair<int,int>>arr;
+        for(int i=0;i<n;i++)arr.push_back(make_pair(arr1[i],i));
+
+        vector<int>v;
+
+        for(int i=n-1;i>=0;i--)
+
+        {
+
+             
+            auto it=s.lower_bound(arr[i]);
+s.insert(arr[i]);
+
+            if(it==s.end())
+
+            {
+
+            v.push_back(-1);
+
+        }
+
+        else
+
+        {
+pair<int,int>a=*it;
+            v.push_back(a.second);
+
+        }
+
+        }
+
+          reverse(v.begin(),v.end());
+
+        vector<int>v1;set<int>s1;map<int,int>count;
+          for(int i=n-1;i>=0;i--)
+
+        {
+if(i==n-1){s1.insert(arr[i].first);count[arr[i].first]=i;v1.push_back(-1);continue;}
+             
+
+            auto it=s1.upper_bound(arr[i].first);
+              
+              
+             // cout<<count[*it];
+
+            if(it==s1.begin())
+
+            {
+
+            v1.push_back(-1);
+
+        }
+
+        else
+
+        {it--;
+
+          // cout<<*it<<" ";
+            v1.push_back(count[*it]);
+
+        }
+              s1.insert(arr[i].first);
+count[arr[i].first]=i;
+        }
+
+ reverse(v1.begin(),v1.end());
+       //for(int i=0;i<n;i++)cout<<v1[i]<<" ";
+        vector<vector<int>>dp(arr1.size()+1,vector<int>(3,-1));
+        long int ans=0;
+        for(int i=0;i<arr1.size();i++)
+        ans+=fun(v,v1,i,1,dp);
+        return ans;
+return 0;
+    }
+};

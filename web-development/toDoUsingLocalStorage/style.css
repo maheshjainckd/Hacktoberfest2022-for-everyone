@@ -1,0 +1,105 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-image: url("https://us.123rf.com/450wm/peacestock123/peacestock1231811/peacestock123181100198/111621492-abstract-dark-brown-triangle-mosaic-background-creative-geometric-illustration-in-origami-style-with.jpg?ver=6");
+	background-size: cover;
+	font-family: 'Arima', cursive;
+}
+#heading{
+	text-align: center;
+	font-family: 'Rubik Moonrocks', cursive;
+	background: rgba( 255, 255, 255, 0.3 );
+	box-shadow: 0 8px 32px 0 rgba( 1, 1, 1, 0.5 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	width: 100px;
+	padding: 10px;
+	margin: 24px auto;
+}
+#take{
+	width: 350px;
+	background: rgba( 255, 255, 255, 0.3 );
+	box-shadow: 0 8px 32px 0 rgba( 1, 1, 1, 0.5 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	padding: 19px;
+	margin: 60px auto;
+	font-weight: 500;
+	font-size: 26px;
+	color: white;
+}
+#take input, textarea{
+	width: 85%;
+	color: grey;
+	font-weight: 300;
+	font-size: 20px;
+	margin-bottom: 26px;
+	padding: 9px;
+	border-radius: 8px;
+	border: none;
+	background: rgba( 255, 255, 255, 0.3 );
+	box-shadow: 0 8px 8px 0 rgba( 1, 1, 1, 0.3 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+}
+#take input:focus, textarea:focus{
+	outline: none;
+}
+button{
+	background: rgba( 255, 255, 255, 0.3 );
+	box-shadow: 0 8px 8px 0 rgba( 1, 1, 1, 0.3 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 9px;
+	border: 1px solid rgba( 1, 1, 1, 0.5 );
+	padding: 4px;
+	font-weight: 500;
+	font-size: 20px;
+	transition-duration: 0.4s;
+	margin: 8px 0;
+}
+button:hover{
+	cursor: pointer;
+	background: rgba( 255, 255, 255, 0.7 );
+}
+button:focus{
+	background: rgba( 255, 255, 255, 0.7 );
+}
+#components{	
+	display: flex;
+	justify-content: center;
+	gap: 50px 50px;
+	flex-wrap: wrap;
+	margin-bottom: 60px;
+}
+#components div{
+	background: rgba( 255, 255, 255, 0.3 );
+	box-shadow: 0 8px 32px 0 rgba( 1, 1, 1, 0.5 );
+	backdrop-filter: blur( 1px );
+	-webkit-backdrop-filter: blur( 1px );
+	border-radius: 10px;
+	border: 1px solid rgba( 255, 255, 255, 0.18 );
+	padding: 19px;
+	width: 250px;
+	color: white;
+	margin: 50px 80px 0 0;
+}
+#components h1{
+	font-weight: 500;
+	font-size: 26px;
+	word-wrap: break-word;
+}
+#components hr{
+	margin: 8px 0;
+}
+#components p{
+	font-weight: 300;
+	font-size: 22px;
+	word-wrap: break-word;
+}

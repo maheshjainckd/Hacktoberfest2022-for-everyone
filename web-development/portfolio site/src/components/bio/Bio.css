@@ -1,0 +1,11 @@
+.viewProfile {
+    border: 2px solid #cbb26a;
+    color: aliceblue;
+    text-decoration: none;
+    transition-duration: 0.5s;
+}
+
+.viewProfile:hover {
+    background-color: #cbb26a;
+    font-weight: bold;
+}
