@@ -6,46 +6,64 @@
   <meta name="viewport" content="width=device-width">
   <title>replit</title>
   <link href="style.css" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=poppins">
+  <!-- Link to an external CSS stylesheet -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=poppins">
+  <!-- Link to an external font style -->
+
 </head>
 
 <body id="overlay">
   <div class="text">
-    <p> 
-    <h1 >Learn to code by <br> watching others</h1>
-  </p>
-  </div>
-    <p class="note">
-      see how exprienced developers solve problems in real-time.<br>
-      watching scripted tutorials is great, but understanding how<br>
-      developers think is invaluable.
+    <p>
+      <h1>Learn to code by <br> watching others</h1>
+      <!-- Main title -->
     </p>
-  <form name = "registerationform" onsubmit="return validateForm()">
+  </div>
+  <p class="note">
+    <!-- Note section with class "note" -->
+    See how experienced developers solve problems in real-time.<br>
+    <!-- First line of the note -->
+    Watching scripted tutorials is great, but understanding how<br>
+    <!-- Second line of the note -->
+    developers think is invaluable.
+    <!-- Third line of the note -->
+  </p>
+  <form name="registrationform" onsubmit="return validateForm()">
+    <!-- Form with a name and a submission event handler -->
     <div>
       <button class="try-btn">
+        <!-- Button with class "try-btn" -->
         <b>Try it free 7 days</b> then $20/mo. thereafter
+        <!-- Button text -->
       </button>
     </div>
     <div class="fm-box">
+      <!-- Form container with class "fm-box" -->
       <input type="text" class="input-box" placeholder="First Name" id="firstname" name="firstname" required><br>
+      <!-- Text input for first name -->
       <input type="text" class="input-box" placeholder="Last Name" name="lastname" required><br>
+      <!-- Text input for last name -->
       <input type="email" class="input-box" placeholder="Email Address" id="email" name="email" required><br>
+      <!-- Email input for email address -->
       <input type="password" class="input-box" placeholder="Password" name="password" required><br>
+      <!-- Password input for password -->
       <button class="claim-btn" type="submit" id="submit" onclick="validation()">CLAIM YOUR FREE TRIAL</button><br>
+      <!-- Button with class "claim-btn" for submitting the form -->
       <p class="dwn-p">
-      By clicking the button you are agreeing to our <a href="T/s.com">Terms and Services</a>
-    </p>
-      
+        By clicking the button you are agreeing to our <a href="T/s.com">Terms and Services</a>
+        <!-- Paragraph with a link to terms and services -->
+      </p>
     </div>
-    
   </form>
 
   <script src="script.js">
+    <!-- Link to an external JavaScript file -->
     required
-validationErrors={{
-  isDefaultRequiredValue: 'Field is required'
-}}
+    <!-- This text seems out of place and should be reviewed -->
+    validationErrors={{
+      isDefaultRequiredValue: 'Field is required'
+    }}
+    <!-- JavaScript object, potentially related to form validation -->
   </script>
 </body>
 
